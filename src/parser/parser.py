@@ -50,7 +50,8 @@ def chapterlist_to_dataframe(chapterlist):
 #==================================================
 # Read and parse
 #==================================================
-for book_idx, bookname in enumerate(sorted(os.listdir(source_directory))[:1]):
+dataframe_list = list()
+for book_idx, bookname in enumerate(sorted(os.listdir(source_directory))):
     bookpath = os.path.join(source_directory, bookname)
     book_dataframe_list = list()
     for filename in sorted(os.listdir(bookpath)):
@@ -62,18 +63,22 @@ for book_idx, bookname in enumerate(sorted(os.listdir(source_directory))[:1]):
         assert (book_df.index != dataframe.index).sum() == 0
         dataframe = dataframe if i == 1 else dataframe[['d']]
         book_df = book_df.join(dataframe.rename(columns={'d':'d{}'.format(i+1)}), how='left')
+    book_df.index = ['{}.{}'.format(book_idx + 1, k) for k in book_df.index]
+    dataframe_list.append(book_df)
+torah_df = pd.concat(dataframe_list)
 
 #==================================================
 # Format for export
 #==================================================
-book_df['cap'] = [float(k.split('.')[0]) for k in book_df.index]
-book_df['verse'] = [float(k.split('.')[1]) for k in book_df.index]
-book_df['word'] = [float(k.split('.')[-1]) for k in book_df.index]
-book_df = book_df.sort_values(['cap','verse','word']).drop(['cap','verse','word'], axis = 1)
-book_df = book_df[['d0','d1','d2','maqaf','paseq','break']]
+torah_df['book'] = [float(k.split('.')[0]) for k in torah_df.index]
+torah_df['chapter'] = [float(k.split('.')[1]) for k in torah_df.index]
+torah_df['verse'] = [float(k.split('.')[2]) for k in torah_df.index]
+torah_df['word'] = [float(k.split('.')[-1]) for k in torah_df.index]
+torah_df = torah_df.sort_values(['book','chapter','verse','word']).drop(['book','chapter','verse','word'], axis = 1)
+torah_df = torah_df[['d0','d1','d2','maqaf','paseq','break']]
 
 #==================================================
 # Export
 #==================================================
 target_filepath = os.path.join(target_directory, 'words.csv')
-book_df.to_csv(target_filepath)
+torah_df.to_csv(target_filepath)
