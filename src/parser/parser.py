@@ -75,10 +75,10 @@ torah_df['chapter'] = [float(k.split('.')[1]) for k in torah_df.index]
 torah_df['verse'] = [float(k.split('.')[2]) for k in torah_df.index]
 torah_df['word'] = [float(k.split('.')[-1]) for k in torah_df.index]
 torah_df = torah_df.sort_values(['book','chapter','verse','word']).drop(['book','chapter','verse','word'], axis = 1)
-torah_df = torah_df[['d0','d1','d2','maqaf','paseq','break']]
+torah_df = torah_df[['d0','d1','d2','maqaf','paseq','break']].reset_index().rename(columns={'index':'idx'})
 
 #==================================================
 # Export
 #==================================================
 target_filepath = os.path.join(target_directory, 'words.csv')
-torah_df.to_csv(target_filepath)
+torah_df.to_csv(target_filepath, index = False)
