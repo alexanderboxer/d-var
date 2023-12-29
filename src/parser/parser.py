@@ -68,7 +68,7 @@ for book_idx, bookname in enumerate(sorted(os.listdir(source_directory))):
 torah_df = pd.concat(dataframe_list)
 
 #==================================================
-# Format for export
+# Order and format
 #==================================================
 torah_df['book'] = [float(k.split('.')[0]) for k in torah_df.index]
 torah_df['chapter'] = [float(k.split('.')[1]) for k in torah_df.index]
@@ -76,6 +76,22 @@ torah_df['verse'] = [float(k.split('.')[2]) for k in torah_df.index]
 torah_df['word'] = [float(k.split('.')[-1]) for k in torah_df.index]
 torah_df = torah_df.sort_values(['book','chapter','verse','word']).drop(['book','chapter','verse','word'], axis = 1)
 torah_df = torah_df[['d0','d1','d2','maqaf','paseq','break']].reset_index().rename(columns={'index':'idx'})
+
+#==================================================
+# Identify nikkud and taamei
+#==================================================
+def unicode_nikkud_names(s):
+    charnamelist = s.encode('ascii','namereplace').decode().split('\\N')[1:]
+    nikkudlist = [k.replace('HEBREW POINT','').replace('{','').replace('}','').strip() for k in charnamelist if 'HEBREW POINT' in k]
+    return nikkudlist
+
+def unicode_taamei_names(s):
+    charnamelist = s.encode('ascii','namereplace').decode().split('\\N')[1:]
+    taameilist = [k.replace('HEBREW ACCENT','').replace('{','').replace('}','').strip().lower() for k in charnamelist if 'HEBREW ACCENT' in k]
+    taameilist = ', '.join([k.replace(' ','-') for k in taameilist])
+    return taameilist
+
+torah_df['taamei'] = [unicode_taamei_names(k) for k in torah_df.d2]
 
 #==================================================
 # Export
