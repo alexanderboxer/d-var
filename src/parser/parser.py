@@ -78,20 +78,20 @@ torah_df = torah_df.sort_values(['book','chapter','verse','word']).drop(['book',
 torah_df = torah_df[['d0','d1','d2','maqaf','paseq','break']].reset_index().rename(columns={'index':'idx'})
 
 #==================================================
-# Identify nikkud and taamei
+# Identify nikkud and tropes
 #==================================================
 def unicode_nikkud_names(s):
     charnamelist = s.encode('ascii','namereplace').decode().split('\\N')[1:]
     nikkudlist = [k.replace('HEBREW POINT','').replace('{','').replace('}','').strip() for k in charnamelist if 'HEBREW POINT' in k]
     return nikkudlist
 
-def unicode_taamei_names(s):
+def unicode_trope_names(s):
     charnamelist = s.encode('ascii','namereplace').decode().split('\\N')[1:]
-    taameilist = [k.replace('HEBREW ACCENT','').replace('{','').replace('}','').strip().lower() for k in charnamelist if 'HEBREW ACCENT' in k]
-    taameilist = ', '.join([k.replace(' ','-') for k in taameilist])
-    return taameilist
+    tropelist = [k.replace('HEBREW ACCENT','').replace('{','').replace('}','').strip().lower() for k in charnamelist if 'HEBREW ACCENT' in k]
+    tropelist = ', '.join([k.replace(' ','-') for k in tropelist])
+    return tropelist
 
-torah_df['taamei'] = [unicode_taamei_names(k) for k in torah_df.d2]
+torah_df['trope'] = [unicode_trope_names(k) for k in torah_df.d2]
 
 #==================================================
 # Export
