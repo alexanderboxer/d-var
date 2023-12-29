@@ -87,7 +87,7 @@ def unicode_nikkud_names(s):
 
 def unicode_trope_names(s):
     charnamelist = s.encode('ascii','namereplace').decode().split('\\N')[1:]
-    tropelist = [k.replace('HEBREW ACCENT','').replace('{','').replace('}','').strip().lower() for k in charnamelist if 'HEBREW ACCENT' in k]
+    tropelist = [k.replace('HEBREW ACCENT','').replace('HEBREW PUNCTUATION','').replace('{','').replace('}','').strip().lower() for k in charnamelist if ('HEBREW ACCENT' in k) or ('SOF PASUQ' in k)]
     tropelist = ', '.join([k.replace(' ','-') for k in tropelist])
     return tropelist
 
