@@ -16,7 +16,8 @@ def get_project_root():
     return git.Repo('.', search_parent_directories=True).working_tree_dir
 
 project_root = get_project_root()
-source_directory = os.path.join(project_root,'sourcetexts')
+source_directory = os.path.join(project_root,'sourcetexts','sefaria') # Sefaria
+source_directory2 = os.path.join(project_root,'sourcetexts','openscriptures') # OpenScriptures
 target_directory = os.path.join(project_root, 'wordframe')
 
 #==================================================
@@ -94,7 +95,29 @@ def unicode_trope_names(s):
 torah_df['trope'] = [unicode_trope_names(k) for k in torah_df.d2]
 
 #==================================================
+# Append Strong numbers
+#==================================================
+stronglist_filename = 'wlc_cons.txt'
+stronglist_filepath = os.path.join(source_directory2, stronglist_filename)
+strong_df = pd.read_csv(stronglist_filepath, 
+                        sep = '\s+', 
+                        dtype = {0: str, 1: str, 2: str, 3: str},
+                        names = ['book','idx','strongnum','d0'], 
+                        )
+strong_df['d0'] = [k.replace('/','') for k in strong_df.d0]
+
+bookname_dict = {
+    'Gen': 1,
+    'Exod': 2,
+    'Lev': 3,
+    'Nu': 4,
+    'Deut': 5,
+}
+strong_df['book'] = [bookname_dict[k] if k in bookname_dict.keys() else k for k in strong_df.book]
+strong_df['idx'] = ['{}.{}'.format(k[0], k[1].replace(':','.')) for k in zip(strong_df.book, strong_df.idx)]
+
+#==================================================
 # Export
 #==================================================
 target_filepath = os.path.join(target_directory, 'words.csv')
-torah_df.to_csv(target_filepath, index = False)
+#torah_df.to_csv(target_filepath, index = False)
