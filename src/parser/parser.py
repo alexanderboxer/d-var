@@ -95,7 +95,7 @@ def unicode_trope_names(s):
 torah_df['trope'] = [unicode_trope_names(k) for k in torah_df.d2]
 
 #==================================================
-# Append Strong numbers
+# Merge Strong numbers
 #==================================================
 stronglist_filename = 'wlc_cons.txt'
 stronglist_filepath = os.path.join(source_directory2, stronglist_filename)
@@ -119,6 +119,20 @@ strong_df = strong_df.drop('book', axis = 1)
 
 # merge
 torah_df = torah_df.merge(strong_df, how = 'left', on = ['idx','d0'])
+
+#==================================================
+# Append Strong lemmas
+#==================================================
+strongs_dictionary_filename = 'strongs-hebrew-dictionary.js'
+strongs_dictionary_filepath = os.path.join(source_directory2, strongs_dictionary_filename)
+with open(strongs_dictionary_filepath, 'r') as f:
+    strongtxt = f.read()
+
+strongs_json = strongtxt.replace('\n','').split('var strongsHebrewDictionary = ')[-1].split(';module.exports')[0]
+strongs_dictionary = json.loads(strongs_json)
+
+# append 
+torah_df['strongs_lemma'] = [strongs_dictionary['H{}'.format(k)]['lemma'] if 'H{}'.format(k) in strongs_dictionary.keys() else None for k in torah_df.strongs_number]
 
 #==================================================
 # Export
