@@ -102,7 +102,7 @@ stronglist_filepath = os.path.join(source_directory2, stronglist_filename)
 strong_df = pd.read_csv(stronglist_filepath, 
                         sep = '\s+', 
                         dtype = {0: str, 1: str, 2: str, 3: str},
-                        names = ['book','idx','strongnum','d0'], 
+                        names = ['book','idx','strongs_number','d0'], 
                         )
 strong_df['d0'] = [k.replace('/','') for k in strong_df.d0]
 
@@ -115,9 +115,13 @@ bookname_dict = {
 }
 strong_df['book'] = [bookname_dict[k] if k in bookname_dict.keys() else k for k in strong_df.book]
 strong_df['idx'] = ['{}.{}'.format(k[0], k[1].replace(':','.')) for k in zip(strong_df.book, strong_df.idx)]
+strong_df = strong_df.drop('book', axis = 1)
+
+# merge
+torah_df = torah_df.merge(strong_df, how = 'left', on = ['idx','d0'])
 
 #==================================================
 # Export
 #==================================================
 target_filepath = os.path.join(target_directory, 'words.csv')
-#torah_df.to_csv(target_filepath, index = False)
+torah_df.to_csv(target_filepath, index = False)
