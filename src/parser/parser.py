@@ -130,6 +130,7 @@ strong_df = strong_df.drop('book', axis = 1)
 
 # merge
 torah_df = torah_df.merge(strong_df, how = 'left', on = ['idx','d0'])
+torah_df['strongs_number'] = [str(int(k)) if (not pd.isna(k)) and (int(k) > 0) else None for k in torah_df.strongs_number]
 
 #==================================================
 # Append Strong lemmas
@@ -147,6 +148,15 @@ torah_df['strongs_lemma'] = [strongs_dictionary['H{}'.format(k)]['lemma'] if 'H{
 
 # plain lemma
 torah_df['lemma'] = [letters_only(k) for k in torah_df.strongs_lemma]
+torah_df = torah_df.drop('strongs_lemma', axis=1)
+
+#==================================================
+# Word counts
+#==================================================
+torah_df['n'] = torah_df.groupby('strongs_number').cumcount() + 1
+torah_df['N'] = torah_df.groupby('strongs_number')['strongs_number'].transform('count')
+torah_df['occurrence'] = [(int(k[0]), int(k[1])) if not pd.isna(k[2]) else None for k in zip(torah_df.n, torah_df.N, torah_df.strongs_number)]
+torah_df = torah_df.drop(['N','n'], axis=1)
 
 #==================================================
 # Export
