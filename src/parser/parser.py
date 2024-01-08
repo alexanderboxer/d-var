@@ -48,6 +48,17 @@ def chapterlist_to_dataframe(chapterlist):
     df = pd.DataFrame(zip(idxlist, wordlist, maqaflist, paseqlist, breaklist), columns = ['idx','d','maqaf','paseq','break']).set_index('idx')
     return df
 
+
+#==================================================
+# Function: letters only
+#==================================================
+def letters_only(s):
+    try:
+        charzip = list(zip(s.encode('ascii','namereplace').decode().split('\\N')[1:], [ord(k) for k in s.encode('unicode-escape').decode('unicode-escape')]))
+        return ''.join([chr(k[1]) for k in charzip if 'HEBREW LETTER' in k[0]])
+    except:
+        return None
+
 #==================================================
 # Read and parse
 #==================================================
@@ -133,6 +144,9 @@ strongs_dictionary = json.loads(strongs_json)
 
 # append 
 torah_df['strongs_lemma'] = [strongs_dictionary['H{}'.format(k)]['lemma'] if 'H{}'.format(k) in strongs_dictionary.keys() else None for k in torah_df.strongs_number]
+
+# plain lemma
+torah_df['lemma'] = [letters_only(k) for k in torah_df.strongs_lemma]
 
 #==================================================
 # Export
