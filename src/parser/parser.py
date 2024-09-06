@@ -175,4 +175,4 @@ torah_df = torah_df.drop(['n','N','n0','N0','n1','N1','n2','N2'], axis=1)
 # Export
 #==================================================
 target_filepath = os.path.join(target_directory, 'words.csv')
-torah_df.to_csv(target_filepath, index = False)
+#torah_df.to_csv(target_filepath, index = False)
