@@ -8,8 +8,12 @@ import requests
 #==================================================
 def get_sefaria_tanach():
     genesis_with_text_only_json_url = 'https://raw.githubusercontent.com/Sefaria/Sefaria-Export/refs/heads/master/json/Tanakh/Torah/Genesis/Hebrew/Tanach%20with%20Text%20Only.json'
-    response = requests.get(genesis_with_text_only_json_url)
-    gg = response.json()
+    keyboard_input = input('y/n')
+    if keyboard_input.lower() == 'y':
+        response = requests.get(genesis_with_text_only_json_url)
+        gg = response.json()
+    else:
+        gg = 'abc'
 
     return gg
 
