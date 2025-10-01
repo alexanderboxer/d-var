@@ -218,3 +218,6 @@ __marimo__/
 # macOS-specific files
 .DS_Store
 **/.DS_Store
+
+# Data
+data/
