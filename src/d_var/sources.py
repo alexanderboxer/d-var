@@ -22,10 +22,10 @@ def get_sefaria_tanach():
     if os.path.isdir(target_directory):
         modification_timestamp = os.path.getmtime(target_directory)
         last_modified_datestring = datetime.fromtimestamp(modification_timestamp).strftime('%Y-%m-%dT%H:%M:%S')
-        keyboard_input = input('The target directory {} was last modified on {}. Overwrite (y/n)? '.format(target_directory, last_modified_datestring))
+        keyboard_input = input('\nThe target directory {} was last modified on {}. Overwrite (y/n)? '.format(target_directory, last_modified_datestring))
 
     else:
-        keyboard_input = input('Download Sefaria Tanach (y/n)? ')
+        keyboard_input = input('\nDownload Sefaria Tanach (y/n)? ')
 
 
     # Sefaria Tanach source-target dictionary
@@ -35,6 +35,15 @@ def get_sefaria_tanach():
         },
         'exodus': {
             'directory': os.path.join(temp_directory, '02_exodus')
+        },
+        'leviticus': {
+            'directory': os.path.join(temp_directory, '03_leviticus')
+        },
+        'numbers': {
+            'directory': os.path.join(temp_directory, '04_numbers')
+        },
+        'deuteronomy': {
+            'directory': os.path.join(temp_directory, '05_deuteronomy')
         },
     }
     source_target_dict['genesis'].update({
@@ -69,6 +78,55 @@ def get_sefaria_tanach():
             },
         } 
     })
+    source_target_dict['leviticus'].update({
+        'texts': {
+            'text_only': {
+                'source': "https://raw.githubusercontent.com/Sefaria/Sefaria-Export/refs/heads/master/json/Tanakh/Torah/Leviticus/Hebrew/Tanach%20with%20Text%20Only.json",
+                'target': os.path.join(source_target_dict['leviticus']['directory'], 'leviticus.json'),
+            },
+            'text_with_nikkud': {
+                'source': "https://raw.githubusercontent.com/Sefaria/Sefaria-Export/refs/heads/master/json/Tanakh/Torah/Leviticus/Hebrew/Tanach%20with%20Nikkud.json",
+                'target': os.path.join(source_target_dict['leviticus']['directory'], 'leviticus_with_nikkud.json'),
+            },
+            'text_with_taamei_hamikra': {
+                'source': "https://raw.githubusercontent.com/Sefaria/Sefaria-Export/refs/heads/master/json/Tanakh/Torah/Leviticus/Hebrew/Tanach%20with%20Ta'amei%20Hamikra.json",
+                'target': os.path.join(source_target_dict['leviticus']['directory'], 'leviticus_with_taamei_hamikra.json'),
+            },
+        } 
+    })
+    source_target_dict['numbers'].update({
+        'texts': {
+            'text_only': {
+                'source': "https://raw.githubusercontent.com/Sefaria/Sefaria-Export/refs/heads/master/json/Tanakh/Torah/Numbers/Hebrew/Tanach%20with%20Text%20Only.json",
+                'target': os.path.join(source_target_dict['numbers']['directory'], 'numbers.json'),
+            },
+            'text_with_nikkud': {
+                'source': "https://raw.githubusercontent.com/Sefaria/Sefaria-Export/refs/heads/master/json/Tanakh/Torah/Numbers/Hebrew/Tanach%20with%20Nikkud.json",
+                'target': os.path.join(source_target_dict['numbers']['directory'], 'numbers_with_nikkud.json'),
+            },
+            'text_with_taamei_hamikra': {
+                'source': "https://raw.githubusercontent.com/Sefaria/Sefaria-Export/refs/heads/master/json/Tanakh/Torah/Numbers/Hebrew/Tanach%20with%20Ta'amei%20Hamikra.json",
+                'target': os.path.join(source_target_dict['numbers']['directory'], 'numbers_with_taamei_hamikra.json'),
+            },
+        } 
+    })
+    source_target_dict['deuteronomy'].update({
+        'texts': {
+            'text_only': {
+                'source': "https://raw.githubusercontent.com/Sefaria/Sefaria-Export/refs/heads/master/json/Tanakh/Torah/Deuteronomy/Hebrew/Tanach%20with%20Text%20Only.json",
+                'target': os.path.join(source_target_dict['deuteronomy']['directory'], 'deuteronomy.json'),
+            },
+            'text_with_nikkud': {
+                'source': "https://raw.githubusercontent.com/Sefaria/Sefaria-Export/refs/heads/master/json/Tanakh/Torah/Deuteronomy/Hebrew/Tanach%20with%20Nikkud.json",
+                'target': os.path.join(source_target_dict['deuteronomy']['directory'], 'deuteronomy_with_nikkud.json'),
+            },
+            'text_with_taamei_hamikra': {
+                'source': "https://raw.githubusercontent.com/Sefaria/Sefaria-Export/refs/heads/master/json/Tanakh/Torah/Deuteronomy/Hebrew/Tanach%20with%20Ta'amei%20Hamikra.json",
+                'target': os.path.join(source_target_dict['deuteronomy']['directory'], 'deuteronomy_with_taamei_hamikra.json'),
+            },
+        } 
+    })
+
 
     # Get data and write to file
     if keyboard_input.lower() == 'y':
