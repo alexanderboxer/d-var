@@ -6,4 +6,7 @@ import d_var as dv
 # ==================================================
 # 
 # ==================================================
-dv.get_sefaria_tanach()
+
+# dv.get_sefaria_tanach()
+
+tdf = dv.torah()
