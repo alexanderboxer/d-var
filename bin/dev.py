@@ -10,3 +10,5 @@ import d_var as dv
 # dv.get_sefaria_tanach()
 
 tdf = dv.torah()
+
+print(dv.verse(1,1,2))

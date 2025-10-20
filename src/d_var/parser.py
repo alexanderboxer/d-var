@@ -108,9 +108,9 @@ def torah():
 
     torah_df['trope'] = [unicode_trope_names(k) for k in torah_df.d2]
 
-#==================================================
-# Word counts
-#==================================================
+    #==================================================
+    # Word counts
+    #==================================================
     #torah_df['n'] = torah_df.groupby('strongs_number').cumcount() + 1
     #torah_df['N'] = torah_df.groupby('strongs_number')['strongs_number'].transform('count')
     #torah_df['strongs_count'] = [(int(k[0]), int(k[1])) if not pd.isna(k[2]) else None for k in zip(torah_df.n, torah_df.N, torah_df.strongs_number)]
@@ -130,3 +130,19 @@ def torah():
     torah_df = torah_df.drop(['n0','N0','n1','N1','n2','N2'], axis=1)
 
     return torah_df 
+
+
+
+def verse(book_idx, chapter_idx, verse_idx, level=3):
+    bookdirs = sorted(os.listdir(data_directory))
+    bookdir = bookdirs[book_idx-1]
+    bookpath = os.path.join(data_directory, bookdir)
+    filenames = sorted(os.listdir(bookpath))
+    filename = filenames[level-1]
+    filepath = os.path.join(bookpath, filename)
+    with open(filepath) as f:
+        chapterlist = json.load(f)['text']
+    chapter_text = chapterlist[chapter_idx-1]
+    verse_text = chapter_text[verse_idx-1]
+
+    return verse_text
