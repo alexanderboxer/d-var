@@ -11,4 +11,5 @@ import d_var as dv
 
 tdf = dv.torah()
 
-print(dv.verse(1,1,2))
+
+dv.chapter_to_html()
