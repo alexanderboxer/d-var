@@ -29,10 +29,17 @@ def chapter_to_html(book='genesis', chapter=1):
 
     # Center
     html_center = ''
-    for verse_idx in range(1,20):
+
+    torah_df = dv.torah()
+    
+    for verse_idx in range(1,12):
+        verse_df = torah_df[(torah_df.book == 1) & (torah_df.chapter==1) & (torah_df.verse==verse_idx)]
+        aa = ' '.join(['<span class="word" id="{}">{}</span>'.format(k[0],k[1]) for k in zip(verse_df.idx, verse_df.d2)])
+
         html_center += '\t\t<div class="clause">\n'
         html_center += f'\t\t\t<p class="label">verse {verse_idx} • clause 1</p>\n'
-        html_center += f'\t\t\t<p class="hebrew">{dv.verse(1, chapter, verse_idx)}</p>\n'
+        # html_center += f'\t\t\t<p class="hebrew">{dv.verse(1, chapter, verse_idx)}</p>\n'
+        html_center += f'\t\t\t<p class="hebrew">{aa}</p>\n'
         html_center += '\t\t</div>\n'
     html_center += '\t</div><!-- main -->\n'
 

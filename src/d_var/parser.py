@@ -85,12 +85,12 @@ def torah():
     #==================================================
     # Order and format
     #==================================================
-    torah_df['book'] = [float(k.split('.')[0]) for k in torah_df.index]
-    torah_df['chapter'] = [float(k.split('.')[1]) for k in torah_df.index]
-    torah_df['verse'] = [float(k.split('.')[2]) for k in torah_df.index]
-    torah_df['word'] = [float(k.split('.')[-1]) for k in torah_df.index]
-    torah_df = torah_df.sort_values(['book','chapter','verse','word']).drop(['book','chapter','verse','word'], axis = 1)
-    torah_df = torah_df[['d0','d1','d2','maqaf','paseq','break']].reset_index().rename(columns={'index':'idx'})
+    torah_df['book'] = [int(k.split('.')[0]) for k in torah_df.index]
+    torah_df['chapter'] = [int(k.split('.')[1]) for k in torah_df.index]
+    torah_df['verse'] = [int(k.split('.')[2]) for k in torah_df.index]
+    torah_df['word'] = [int(k.split('.')[-1]) for k in torah_df.index]
+    torah_df = torah_df.sort_values(['book','chapter','verse','word'])
+    torah_df = torah_df[['book','chapter','verse','word','d0','d1','d2','maqaf','paseq','break']].reset_index().rename(columns={'index':'idx'})
 
     #==================================================
     # Identify nikkud and tropes
