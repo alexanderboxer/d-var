@@ -133,8 +133,7 @@ body {
 }
 
 .word:hover {
-  color: rgb(255, 68, 51);
-  color: rgb(212, 54, 36);
+  color: rgb(180, 0, 0);
   cursor: pointer;
 }
 
