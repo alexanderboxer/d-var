@@ -147,3 +147,64 @@ def get_sefaria_tanach():
 
         except:
             print('Failed to download source texts.')
+
+
+#============================================================
+# Function: get Strong's Hebrew Dictionary and WLC mapping
+#============================================================
+def get_openscriptures_strongs():
+
+    # Identify project root and define the target directory
+    script_directory = os.path.dirname(os.path.abspath(__file__))
+    project_root = script_directory.split('/src/d_var')[0]
+    target_directory = os.path.join(project_root, 'data/external/openscriptures_strongs')
+    temp_directory = os.path.join(project_root, 'data/external', 'temp_{}'.format(''.join(filter(str.isalnum, str(datetime.now())))))
+
+    # Get user input
+    if os.path.isdir(target_directory):
+        modification_timestamp = os.path.getmtime(target_directory)
+        last_modified_datestring = datetime.fromtimestamp(modification_timestamp).strftime('%Y-%m-%dT%H:%M:%S')
+        keyboard_input = input('\nThe target directory {} was last modified on {}. Overwrite (y/n)? '.format(target_directory, last_modified_datestring))
+
+    else:
+        keyboard_input = input("\nDownload Strong's Hebrew Dictionary and WLC mapping from OpenScriptures (y/n)? ")
+
+
+    # OpenScriptures Strong's source-target dictionary
+    source_target_dict = {
+        'strongs_hebrew_dictionary': {
+            'source': 'https://raw.githubusercontent.com/openscriptures/strongs/refs/heads/master/hebrew/strongs-hebrew-dictionary.js',
+            'target': os.path.join(temp_directory, 'strongs_hebrew_dictionary.js')
+        },
+        'wlc_mapping': {
+            'source': 'https://raw.githubusercontent.com/openscriptures/morphhb/refs/heads/master/oxlos-import/wlc_cons.txt',
+            'target': os.path.join(temp_directory, 'wlc_cons.txt')
+        },
+    }
+
+
+    # Get data and write to file
+    if keyboard_input.lower() == 'y':
+        try:
+            os.makedirs(temp_directory)
+            for text in source_target_dict.values():
+                response = requests.get(text['source'])
+                textstring = response.text
+                with open(text['target'], 'w', encoding = 'utf8') as f:
+                    f.write(textstring)
+
+            if os.path.isdir(target_directory):
+                shutil.rmtree(target_directory)
+            shutil.move(temp_directory, target_directory)
+            print('Success. Files have been written to {}'.format(target_directory))
+
+        except:
+            print('Failed to download source texts.')
+
+
+#==================================================
+# Function: get external files
+#==================================================
+def get_external_files():
+    get_sefaria_tanach()
+    get_openscriptures_strongs()
