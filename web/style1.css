@@ -55,7 +55,6 @@ body {
   display: flex;
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
-  margin-top: 80px;
 }
 
 /* Create two unequal columns that sits next to each other */
@@ -64,8 +63,9 @@ body {
   -ms-flex: 70%; /* IE10 */
   flex: 70%;
   background-color: white;
-  padding: 20px;
-  height: 600px;
+  padding-top: 7em;
+  padding-bottom: 10em;
+  height: 100px;
   overflow: scroll;
 }
 
@@ -74,8 +74,9 @@ body {
   -ms-flex: 30%; /* IE10 */
   flex: 30%;
   background-color: #f1f1f1;
-  padding: 20px;
-  height: 600px;
+  padding-top: 7em;
+  padding-left: 2em;
+  height: 100px;
   overflow: scroll;
 }
 
@@ -110,26 +111,47 @@ body {
 }
 
 /* Additional classes */
+.chapter_title {
+  position: fixed; 
+  top: 80px; 
+  background-color: transparent; 
+  padding: 5px;
+}
+
+
+/* Additional classes */
 .clause {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 4em;
-  max-width: 30em;
+  max-width: 80%;;
 }
 
 .label {
   font-size: 70%;
   color: #888;
-  text-align: right;
+  text-align: left;
 }
 
 .hebrew {
+  width: 60%;
+  padding-right: 10px;
+}
+
+.hebrew p {
   font-size: 140%;
   text-align: right;
+  margin-top: 0px;
 }
 
 .english {
+  width: 40%;
+  padding-left: 10px;
+}
+
+.english p {
   text-align: justify;
+  margin-top: 0px;
 }
 
 .word:hover {

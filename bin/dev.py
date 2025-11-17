@@ -9,7 +9,7 @@ import d_var as dv
 # 
 # ==================================================
 
-dv.get_external_files()
+#dv.get_external_files()
 
 tdf = dv.torah()
 
