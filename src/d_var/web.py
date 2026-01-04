@@ -35,7 +35,8 @@ def chapter_to_html(book='genesis', chapter=1):
         verse_df = torah_df[(torah_df.book == 1) & (torah_df.chapter==1) & (torah_df.verse==verse_idx)]
         for clause_idx in range(1, 1 + len(set(verse_df.clause))):
             clause_df = verse_df[verse_df.clause==clause_idx]
-            aa = ' '.join(['<span class="word" id="{}">{}</span>'.format(k[0],k[1]) for k in zip(clause_df.idx, clause_df.d2)])
+            separator_list = ['&#x5BE;' if (k is not None) and (k[0] < k[1]) else ' ' for k in clause_df.maqaf]
+            aa = ''.join(['<span class="word" id="{}">{}</span>{}'.format(k[0],k[1],k[2]) for k in zip(clause_df.idx, clause_df.d2, separator_list)])
 
             html_center += '\t\t<div class="clause">\n'
             html_center += f'\t\t\t<p class="label">verse {verse_idx} • clause {clause_idx}</p>\n'
