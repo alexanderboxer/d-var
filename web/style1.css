@@ -136,22 +136,27 @@ body {
 .hebrew {
   width: 60%;
   padding-right: 10px;
+  /* background-color: cyan; */
 }
 
 .hebrew p {
   font-size: 140%;
   text-align: right;
   margin-top: 0px;
+  margin-right: 10px;
 }
 
 .english {
   width: 40%;
   padding-left: 10px;
+  /* background-color: yellow; */
 }
 
 .english p {
+  font-size: 110%;
   text-align: justify;
-  margin-top: 0px;
+  margin-top: .4ex;
+  margin-left: 10px;
 }
 
 .word:hover {
