@@ -4,14 +4,15 @@
 import os
 import json
 
+import d_var as dv
+
 #==================================================
 # Function: get Sefaria Tanach
 #==================================================
 def create_clausebreaks_template_file():
 
-    # Identify project root and define the target filepath
-    script_directory = os.path.dirname(os.path.abspath(__file__))
-    project_root = script_directory.split('/src/d_var')[0]
+    # Paths
+    project_root = dv.get_project_root()
     data_directory = os.path.join(project_root,'data','external','sefaria_tanach') # Sefaria
     target_directory = os.path.join(project_root, 'data','templates')
     target_filename = 'template_clausebreaks.json'

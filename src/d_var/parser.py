@@ -8,15 +8,13 @@ import os
 import json
 import pandas as pd
 
+import d_var as dv
+
+
 #==================================================
 # Paths
 #==================================================
-def get_project_root():
-    script_directory = os.path.dirname(os.path.abspath(__file__))
-    project_root = script_directory.split('/src/d_var')[0]
-    return project_root
-
-project_root = get_project_root()
+project_root = dv.get_project_root()
 data_directory = os.path.join(project_root,'data','external','sefaria_tanach') # Sefaria
 
 

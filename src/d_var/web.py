@@ -10,9 +10,8 @@ import d_var as dv
 def chapter_to_html(book='genesis', chapter=1):
 
 
-    # Identify project root and define the target directory
-    script_directory = os.path.dirname(os.path.abspath(__file__))
-    project_root = script_directory.split('/src/d_var')[0]
+    # Paths
+    project_root = dv.get_project_root()
     target_directory = os.path.join(project_root, 'web')
     
     # Construct the target filepath
