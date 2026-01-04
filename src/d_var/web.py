@@ -40,15 +40,20 @@ def chapter_to_html(book='genesis', chapter=1):
             html_center += '\t\t<div class="clause">\n'
             html_center += f'\t\t\t<p class="label">verse {verse_idx} • clause {clause_idx}</p>\n'
             html_center += '\t\t\t<div class="row">\n'
-            html_center += '\t\t\t\t<div class="hebrew">\n'
-            html_center += f'\t\t\t\t\t<p>{aa}</p>\n'
-            html_center += '\t\t\t\t</div>\n'
+
             html_center += '\t\t\t\t<div class="english">\n'
             html_center += f'\t\t\t\t\t<p>In the beginning</p>\n'
             html_center += '\t\t\t\t</div>\n'
+
+            html_center += '\t\t\t\t<div class="hebrew">\n'
+            html_center += f'\t\t\t\t\t<p>{aa}</p>\n'
+            html_center += '\t\t\t\t</div>\n'
+
+
+
             html_center += '\t\t\t</div>\n'
             html_center += '\t\t</div>\n'
-            
+
     html_center += '\t</div><!-- main -->\n'
 
 

@@ -134,7 +134,7 @@ body {
 }
 
 .hebrew {
-  width: 60%;
+  width: 50%;
   padding-right: 10px;
   /* background-color: cyan; */
 }
@@ -147,7 +147,7 @@ body {
 }
 
 .english {
-  width: 40%;
+  width: 50%;
   padding-left: 10px;
   /* background-color: yellow; */
 }

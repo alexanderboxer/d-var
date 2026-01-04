@@ -23,7 +23,7 @@ tdf = dv.torah()
 # with open(target_filepath, 'w') as f:
 #     f.write(s)
 
-# target_filepath2 = 'web/wordstats.json'
+# target_filepath2 = 'web/wordstats.json'loop
 # with open(target_filepath2, 'w') as f:
 #     json.dump(wordstat_dict, f)
 
