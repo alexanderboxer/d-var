@@ -28,6 +28,6 @@ tdf = dv.torah()
 #     json.dump(wordstat_dict, f)
 
 
-# dv.chapter_to_html()
+dv.chapter_to_html()
 
 

@@ -33,19 +33,22 @@ def chapter_to_html(book='genesis', chapter=1):
     
     for verse_idx in range(1,12):
         verse_df = torah_df[(torah_df.book == 1) & (torah_df.chapter==1) & (torah_df.verse==verse_idx)]
-        aa = ' '.join(['<span class="word" id="{}">{}</span>'.format(k[0],k[1]) for k in zip(verse_df.idx, verse_df.d2)])
+        for clause_idx in range(1, 1 + len(set(verse_df.clause))):
+            clause_df = verse_df[verse_df.clause==clause_idx]
+            aa = ' '.join(['<span class="word" id="{}">{}</span>'.format(k[0],k[1]) for k in zip(clause_df.idx, clause_df.d2)])
 
-        html_center += '\t\t<div class="clause">\n'
-        html_center += f'\t\t\t<p class="label">verse {verse_idx} • clause 1</p>\n'
-        html_center += '\t\t\t<div class="row">\n'
-        html_center += '\t\t\t\t<div class="hebrew">\n'
-        html_center += f'\t\t\t\t\t<p>{aa}</p>\n'
-        html_center += '\t\t\t\t</div>\n'
-        html_center += '\t\t\t\t<div class="english">\n'
-        html_center += f'\t\t\t\t\t<p>In the beginning</p>\n'
-        html_center += '\t\t\t\t</div>\n'
-        html_center += '\t\t\t</div>\n'
-        html_center += '\t\t</div>\n'
+            html_center += '\t\t<div class="clause">\n'
+            html_center += f'\t\t\t<p class="label">verse {verse_idx} • clause {clause_idx}</p>\n'
+            html_center += '\t\t\t<div class="row">\n'
+            html_center += '\t\t\t\t<div class="hebrew">\n'
+            html_center += f'\t\t\t\t\t<p>{aa}</p>\n'
+            html_center += '\t\t\t\t</div>\n'
+            html_center += '\t\t\t\t<div class="english">\n'
+            html_center += f'\t\t\t\t\t<p>In the beginning</p>\n'
+            html_center += '\t\t\t\t</div>\n'
+            html_center += '\t\t\t</div>\n'
+            html_center += '\t\t</div>\n'
+            
     html_center += '\t</div><!-- main -->\n'
 
 
