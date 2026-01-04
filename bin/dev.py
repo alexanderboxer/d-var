@@ -11,7 +11,7 @@ import d_var as dv
 
 #dv.get_external_files()
 
-dv.create_clausebreaks_template_file()
+# dv.create_clausebreaks_template_file()
 
 tdf = dv.torah()
 

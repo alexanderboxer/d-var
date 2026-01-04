@@ -18,7 +18,7 @@ def create_clausebreaks_template_file():
     target_filename = 'template_clausebreaks.json'
     target_filepath = os.path.join(target_directory, target_filename)
 
-    # Create a clausebreak template file with a default list ([0]) for each verse
+    # Create a clausebreak template file with a default list ([1]) for each verse
     clausebreak_dict = dict()
     for book_idx, bookname in enumerate(sorted(os.listdir(data_directory))):
         bookpath = os.path.join(data_directory, bookname)
@@ -29,8 +29,8 @@ def create_clausebreaks_template_file():
         for chapter_idx, chapter in enumerate(chapterlist):
             for verse_idx, verse in enumerate(chapter):
                 key = '{}.{}.{}'.format(book_idx + 1, chapter_idx + 1, verse_idx + 1)
-                clausebreak_dict.update({key: [0]})
+                clausebreak_dict.update({key: [1]})
 
     # Export
     with open(target_filepath, 'w') as f:
-        json.dump(clausebreak_dict, f, sort_keys=True)
+        json.dump(clausebreak_dict, f, sort_keys=False)

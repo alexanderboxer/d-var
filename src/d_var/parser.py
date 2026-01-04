@@ -15,8 +15,8 @@ import d_var as dv
 # Paths
 #==================================================
 project_root = dv.get_project_root()
-data_directory = os.path.join(project_root,'data','external','sefaria_tanach') # Sefaria
-
+sefaria_tanach_directory = os.path.join(project_root,'data','external','sefaria_tanach') # Sefaria
+clausebreaks_directory = os.path.join(project_root,'data','hand_parsed') # clause breaks
 
 #==================================================
 # Function: chapterlist_to_dataframe
@@ -64,8 +64,8 @@ def torah():
     # Read and parse
     #==================================================
     dataframe_list = list()
-    for book_idx, bookname in enumerate(sorted(os.listdir(data_directory))):
-        bookpath = os.path.join(data_directory, bookname)
+    for book_idx, bookname in enumerate(sorted(os.listdir(sefaria_tanach_directory))):
+        bookpath = os.path.join(sefaria_tanach_directory, bookname)
         book_dataframe_list = list()
         for filename in sorted(os.listdir(bookpath)):
             with open(os.path.join(bookpath, filename)) as f:
@@ -127,14 +127,38 @@ def torah():
 
     torah_df = torah_df.drop(['n0','N0','n1','N1','n2','N2'], axis=1)
 
+    #==================================================
+    # Append hand-parsed clause divisions
+    #==================================================
+    clausebreaks_filepath = os.path.join(clausebreaks_directory, 'clausebreaks.json')
+    try:
+        with open(clausebreaks_filepath, 'r') as f:
+            clausebreak_dict = json.load(f)
+    except:
+        clausebreak_dict = dict()
+
+    def assign_clause_number(torah_word_index, clausebreak_dict):
+        clause_key = '.'.join(torah_word_index.split('.')[:-1])
+        word_num = int(torah_word_index.split('.')[-1])
+        clausebreak_list = clausebreak_dict.get(clause_key,[1])
+        clause_num = len([k for k in clausebreak_list if word_num >= k])
+        return max([1, clause_num])
+
+    torah_df['clause'] = [assign_clause_number(k, clausebreak_dict) for k in torah_df.idx]
+    head_columns = ['idx','book','chapter','verse','word','clause']
+    torah_df = torah_df[head_columns + [k for k in torah_df.columns if k not in head_columns]]
+
+    #==================================================
+    # Return
+    #==================================================
     return torah_df 
 
 
 
 def verse(book_idx, chapter_idx, verse_idx, level=3):
-    bookdirs = sorted(os.listdir(data_directory))
+    bookdirs = sorted(os.listdir(sefaria_tanach_directory))
     bookdir = bookdirs[book_idx-1]
-    bookpath = os.path.join(data_directory, bookdir)
+    bookpath = os.path.join(sefaria_tanach_directory, bookdir)
     filenames = sorted(os.listdir(bookpath))
     filename = filenames[level-1]
     filepath = os.path.join(bookpath, filename)
