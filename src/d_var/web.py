@@ -5,7 +5,7 @@ import os
 import d_var as dv
 
 #==================================================
-# Function: get Sefaria Tanach
+# Function: create html file for a given chapter
 #==================================================
 def chapter_to_html(book='genesis', chapter=1):
 

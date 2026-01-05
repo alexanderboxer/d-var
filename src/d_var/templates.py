@@ -7,7 +7,7 @@ import json
 import d_var as dv
 
 #==================================================
-# Function: get Sefaria Tanach
+# Function: create clausebreaks template file
 #==================================================
 def create_clausebreaks_template_file():
 

@@ -29,5 +29,3 @@ tdf = dv.torah()
 
 
 dv.chapter_to_html()
-
-
