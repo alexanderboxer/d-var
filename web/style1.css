@@ -5,7 +5,15 @@
 /* Style the body */
 body {
   font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  max-width: 80em;
+  background-color: #888;
+  overflow: hidden;
+  overscroll-behavior: none;
 }
 
 
@@ -13,7 +21,7 @@ body {
 .navbar {
   overflow: hidden;
   background-color: #333;
-  position: fixed; /* Set the navbar to fixed position */
+  position: sticky;
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
 }
@@ -60,31 +68,33 @@ body {
 /* Create two unequal columns that sits next to each other */
 /* Main column */
 .main {   
-  -ms-flex: 70%; /* IE10 */
-  flex: 70%;
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
   background-color: white;
-  padding-top: 7em;
+  padding-top: 3em;
   padding-bottom: 10em;
   height: 100px;
   overflow: scroll;
+  overscroll-behavior: contain;
 }
 
 /* Sidebar/left column */
 .side {
-  -ms-flex: 30%; /* IE10 */
-  flex: 30%;
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
   background-color: #f1f1f1;
-  padding-top: 7em;
+  padding-top: 3em;
   padding-left: 2em;
   height: 100px;
   overflow: scroll;
+  overscroll-behavior: contain;
 }
 
 /* Style the top footer */
 .footer {
   overflow: hidden;
   background-color: #333;
-  position: fixed; /* Set the navbar to fixed position */
+  position: sticky;
   bottom: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
 }
