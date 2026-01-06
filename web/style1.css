@@ -133,8 +133,8 @@ body {
 .clause {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 4em;
-  max-width: 80%;;
+  margin-bottom: 2em;
+  max-width: 90%;;
 }
 
 .label {
@@ -145,28 +145,23 @@ body {
 
 .hebrew {
   width: 50%;
-  padding-right: 10px;
-  /* background-color: cyan; */
 }
 
 .hebrew p {
   font-size: 140%;
   text-align: right;
   margin-top: 0px;
-  margin-right: 10px;
 }
 
 .english {
   width: 50%;
-  padding-left: 10px;
-  /* background-color: yellow; */
 }
 
 .english p {
   font-size: 110%;
-  text-align: justify;
+  text-align: left;
   margin-top: .4ex;
-  margin-left: 10px;
+  /* margin-left: 10px; */
 }
 
 .word:hover {
