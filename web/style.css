@@ -1,62 +1,69 @@
-* {
-  box-sizing: border-box;
-}
+  * {
+   box-sizing: border-box; 
+   overscroll-behavior: none;
+  }
+  body {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 80em;
+    background-color: #888;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #main {
+    display: flex;
+    height: calc(100vh - 8.2em);
+  }
+  #main > article {
+    flex: 1;
+    overflow: scroll;
+    background: white;
+  }
+  #main > aside {
+    flex: 0 0 20vw;
+    overflow: scroll;
+    background: #f1f1f1;
+  }
+  article, aside {
+    padding: 2em;
+  }
+  header, footer {
+    padding: 0;
+  }
+  header {
+    height: 5.4em;
+    background-color: #f1f1f1;
+  }
+  footer {
+    height: 2.8em;
+    background-color: #333;
+  }
 
-/* Style the body */
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding: 0;
-  max-width: 80em;
-  background-color: #888;
-  overflow: hidden;
-  overscroll-behavior: none;
-}
+  /* Style the navigation bar links */
+  a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: .8em 1.2em;
+    text-decoration: none;
+    height: 100%;
+  }
 
-
-/* Style the top navigation bar */
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-  position: sticky;
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
-}
-
-.navbar p {
-  margin: 0;
-  padding: 10px;
-  padding-right: 15px;
-  text-align: right;
-  color: black;
-  background-color: #ddd;
-  font-size: 120%;
-}
-
-/* Style the navigation bar links */
-.navbar a {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
-}
-
-/* Right-aligned link */
-.navbar a.right {
-  float: right;
-}
+  /* Right-aligned link */
+  a.right {
+    float: right;
+  }
 
 /* Change color on hover */
-.navbar a:hover {
-  background-color: #ddd;
-  color: black;
-}
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
 
+/* Additional classes */
 /* Column container */
 .row {  
   display: -ms-flexbox; /* IE10 */
@@ -65,71 +72,7 @@ body {
   flex-wrap: wrap;
 }
 
-/* Create two unequal columns that sits next to each other */
-/* Main column */
-.main {   
-  -ms-flex: 75%; /* IE10 */
-  flex: 75%;
-  background-color: white;
-  padding-top: 3em;
-  padding-bottom: 10em;
-  height: 100px;
-  overflow: scroll;
-  overscroll-behavior: contain;
-}
 
-/* Sidebar/left column */
-.side {
-  -ms-flex: 25%; /* IE10 */
-  flex: 25%;
-  background-color: #f1f1f1;
-  padding-top: 3em;
-  padding-left: 2em;
-  height: 100px;
-  overflow: scroll;
-  overscroll-behavior: contain;
-}
-
-/* Style the top footer */
-.footer {
-  overflow: hidden;
-  background-color: #333;
-  position: sticky;
-  bottom: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
-}
-
-/* Style the footer links */
-.footer a {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
-}
-
-/* Right-aligned link */
-.footer a.right {
-  float: right;
-}
-
-/* Change color on hover */
-.footer a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Additional classes */
-.chapter_title {
-  position: fixed; 
-  top: 80px; 
-  background-color: transparent; 
-  padding: 5px;
-}
-
-
-/* Additional classes */
 .clause {
   margin-left: auto;
   margin-right: auto;
@@ -138,7 +81,7 @@ body {
 }
 
 .label {
-  font-size: 70%;
+  font-size: 80%;
   color: #888;
   text-align: left;
 }
@@ -167,19 +110,4 @@ body {
 .word:hover {
   color: rgb(180, 0, 0);
   cursor: pointer;
-}
-
-/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 700px) {
-  .row {   
-    flex-direction: column;
-  }
-}
-
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-  .navbar a {
-    float: none;
-    width: 100%;
-  }
 }
