@@ -24,10 +24,11 @@ def chapter_to_html(book='genesis', chapter=1):
         pagebase = f.read()
 
     # Build html
-    html_top = pagebase.split('<div class="main">')[0] + '<div class="main">\n'
+    html_top = pagebase.split('</header>')[0] + '</header>\n'
 
     # Center
-    html_center = ''
+    html_center = '  <div id="main">\n\t<article>\n'
+
 
     torah_df = dv.torah()
     
@@ -55,17 +56,19 @@ def chapter_to_html(book='genesis', chapter=1):
             html_center += '\t\t\t</div>\n'
             html_center += '\t\t</div>\n'
 
-    html_center += '\t</div><!-- main -->\n'
+    html_center += '\t</article><!-- main -->\n'
 
 
     # Side
-    html_side = '\t<div class="side">' + pagebase.split('<div class="side">')[-1].split('<div class="footer">')[0]
+    # html_side = '\t<div class="side">' + pagebase.split('<div class="side">')[-1].split('<div class="footer">')[0]
 
-    # Foot
-    html_foot = '<div class="footer">' + pagebase.split('<div class="footer">')[-1]
+    # # Foot
+    # html_foot = '<div class="footer">' + pagebase.split('<div class="footer">')[-1]
+
+    html_side = '<aside>' + pagebase.split('<aside>')[-1]
 
     # Export
-    s = html_top + html_center + html_side + html_foot
+    s = html_top + html_center + html_side #+ html_foot
 
     with open(target_filepath,'w') as f:
         f.write(s)

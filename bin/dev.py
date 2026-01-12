@@ -13,7 +13,7 @@ import d_var as dv
 
 # dv.create_clausebreaks_template_file()
 
-tdf = dv.torah()
+# tdf = dv.torah()
 
 
 # wordstat_dict = tdf[(tdf.book==1) & (tdf.chapter==1)].set_index('idx').to_dict(orient='index')
