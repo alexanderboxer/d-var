@@ -2,13 +2,13 @@
 # Imports
 #==================================================
 import os
+import re
 import d_var as dv
 
 #==================================================
 # Function: create html file for a given chapter
 #==================================================
 def chapter_to_html(book='genesis', chapter=1):
-
 
     # Paths
     project_root = dv.get_project_root()
@@ -25,6 +25,7 @@ def chapter_to_html(book='genesis', chapter=1):
 
     # Build html
     html_top = pagebase.split('</header>')[0] + '</header>\n'
+    html_top = re.sub(r'  ', '\t', html_top)
 
     # Center
     html_center = '\t<div id="main">\n\t\t<article>\n'
@@ -68,10 +69,11 @@ def chapter_to_html(book='genesis', chapter=1):
 
     # Foot
     html_foot = '\t<footer>' + pagebase.split('<footer>')[-1]
-
+    html_foot = re.sub(r'  ', '\t', html_foot)
 
     # Export
     s = html_top + html_center + html_side + html_foot
+    s = re.sub('\t', '  ', s)
 
     with open(target_filepath,'w') as f:
         f.write(s)
