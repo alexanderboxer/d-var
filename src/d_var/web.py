@@ -27,7 +27,7 @@ def chapter_to_html(book='genesis', chapter=1):
     html_top = pagebase.split('</header>')[0] + '</header>\n'
 
     # Center
-    html_center = '  <div id="main">\n\t<article>\n'
+    html_center = '\t<div id="main">\n\t\t<article>\n'
 
 
     torah_df = dv.torah()
@@ -39,36 +39,39 @@ def chapter_to_html(book='genesis', chapter=1):
             separator_list = ['&#x5BE;' if (k is not None) and (k[0] < k[1]) else ' ' for k in clause_df.maqaf]
             aa = ''.join(['<span class="word" id="{}">{}</span>{}'.format(k[0],k[1],k[2]) for k in zip(clause_df.idx, clause_df.d2, separator_list)])
 
-            html_center += '\t\t<div class="clause">\n'
-            html_center += f'\t\t\t<p class="label">verse {verse_idx} • clause {clause_idx}</p>\n'
-            html_center += '\t\t\t<div class="row">\n'
+            # open divs
+            html_center += '\t\t\t<div class="clause">\n'
+            html_center += f'\t\t\t\t<p class="label">verse {verse_idx} • clause {clause_idx}</p>\n'
+            html_center += '\t\t\t\t<div class="row">\n'
 
-            html_center += '\t\t\t\t<div class="english">\n'
-            html_center += f'\t\t\t\t\t<p>In the beginning</p>\n'
-            html_center += '\t\t\t\t</div>\n'
+            # English 
+            html_center += '\t\t\t\t\t<div class="english">\n'
+            html_center += f'\t\t\t\t\t\t<p>In the beginning</p>\n'
+            html_center += '\t\t\t\t\t</div>\n'
 
-            html_center += '\t\t\t\t<div class="hebrew">\n'
-            html_center += f'\t\t\t\t\t<p>{aa}</p>\n'
-            html_center += '\t\t\t\t</div>\n'
+            # Hebrew
+            html_center += '\t\t\t\t\t<div class="hebrew">\n'
+            html_center += f'\t\t\t\t\t\t<p>{aa}</p>\n'
+            html_center += '\t\t\t\t\t</div>\n'
+            
+            # close divs
+            html_center += '\t\t\t\t</div><!-- row -->\n'
+            html_center += '\t\t\t</div><!-- clause -->\n'
 
-
-
-            html_center += '\t\t\t</div>\n'
-            html_center += '\t\t</div>\n'
-
-    html_center += '\t</article><!-- main -->\n'
-
+    html_center += '\t\t</article>\n'
 
     # Side
-    # html_side = '\t<div class="side">' + pagebase.split('<div class="side">')[-1].split('<div class="footer">')[0]
+    html_side = '\t\t<aside>\n'
+    html_side += '\t\t\t<p>Form-0: <span id="d0"></span></p>\n'
+    html_side += '\t\t</aside>\n'
+    html_side += '\t</div><!-- main -->\n'
 
-    # # Foot
-    # html_foot = '<div class="footer">' + pagebase.split('<div class="footer">')[-1]
+    # Foot
+    html_foot = '\t<footer>' + pagebase.split('<footer>')[-1]
 
-    html_side = '<aside>' + pagebase.split('<aside>')[-1]
 
     # Export
-    s = html_top + html_center + html_side #+ html_foot
+    s = html_top + html_center + html_side + html_foot
 
     with open(target_filepath,'w') as f:
         f.write(s)

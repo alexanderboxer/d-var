@@ -3,6 +3,6 @@ $(document).ready(function(){
     $(".side").css("height",$(document).height());
     $(".word").on("click", function() {
         var idx = $(this).attr("id");
-        alert(j2[idx].d0);
+        $("#d0").html(j2[idx].d0);
     });
 });
