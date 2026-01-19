@@ -19,7 +19,8 @@ def chapter_to_html(book='genesis', chapter=1):
     target_filepath = os.path.join(target_directory, target_filename)
 
     # Load pagebase
-    pagebase_filepath = os.path.join(target_directory, 'base', 'pagebase.html')
+    #pagebase_filepath = os.path.join(target_directory, 'base', 'pagebase.html')
+    pagebase_filepath = os.path.join(target_directory, 'pagebase.html')
     with open(pagebase_filepath, 'r') as f:
         pagebase = f.read()
 
@@ -62,10 +63,8 @@ def chapter_to_html(book='genesis', chapter=1):
     html_center += '\t\t</article>\n'
 
     # Side
-    html_side = '\t\t<aside>\n'
-    html_side += '\t\t\t<p>Form-0: <span id="d0"></span></p>\n'
-    html_side += '\t\t</aside>\n'
-    html_side += '\t</div><!-- main -->\n'
+    html_side = '\t\t<aside>\n' + pagebase.split('<aside>')[-1].split('</aside>')[0].replace('  ','\t') + '</aside>\n\t</div><!-- main -->\n'
+
 
     # Foot
     html_foot = '\t<footer>' + pagebase.split('<footer>')[-1]
