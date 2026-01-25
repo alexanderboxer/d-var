@@ -17,7 +17,10 @@ import d_var as dv
 project_root = dv.get_project_root()
 sefaria_tanach_directory = os.path.join(project_root,'data','external','sefaria_tanach') # Sefaria
 strongs_directory = os.path.join(project_root,'data','external','openscriptures_strongs') # Strongs
-clausebreaks_directory = os.path.join(project_root,'data','hand_parsed') # clause breaks
+
+# Auxiliary 
+clausebreaks_filepath = os.path.join(project_root,'data','hand_parsed','auxiliary','clausebreaks.json') # clause breaks
+strongs2root_filepath = os.path.join(project_root,'data','hand_parsed','auxiliary','strongs2root.json') # clause breaks
 
 #==================================================
 # Function: chapterlist_to_dataframe
@@ -110,6 +113,11 @@ def torah():
     torah_df['trope'] = [unicode_trope_names(k) for k in torah_df.d2]
 
     #==================================================
+    # Remove sof-pasuq from d1 forms
+    #==================================================
+    torah_df['d1'] = [k.replace('׃','') for k in torah_df.d1]
+
+    #==================================================
     # Parse Strong numbers and merge
     #==================================================
     stronglist_filename = 'wlc_cons.txt'
@@ -147,32 +155,44 @@ def torah():
     # plain lemma
     torah_df['lemma'] = [letters_only(k) for k in torah_df.strongs_lemma]
     torah_df = torah_df.drop('strongs_lemma', axis=1)
-    
+
+    #==================================================
+    # Append Roots
+    #==================================================
+    try:
+        with open(strongs2root_filepath, 'r') as f:
+            strongs2root_dict = json.load(f)
+    except:
+        strongs2root_dict = dict()
+
+    torah_df['root'] = [strongs2root_dict.get(str(k),{}).get('root') for k in torah_df.strongs_number]
+
     #==================================================
     # Word counts
     #==================================================
-    torah_df['n'] = torah_df.groupby('strongs_number').cumcount() + 1
-    torah_df['N'] = torah_df.groupby('strongs_number')['strongs_number'].transform('count')
-    torah_df['strongs_count'] = [(int(k[0]), int(k[1])) if not pd.isna(k[2]) else None for k in zip(torah_df.n, torah_df.N, torah_df.strongs_number)]
+    n = torah_df.groupby('strongs_number').cumcount() + 1
+    N = torah_df.groupby('strongs_number')['strongs_number'].transform('count')
+    torah_df['strongs_count'] = [(int(k[0]), int(k[1])) if not pd.isna(k[2]) else (None, None) for k in zip(n, N, torah_df.strongs_number)]
 
-    torah_df['n0'] = torah_df.groupby('d0').cumcount() + 1
-    torah_df['N0'] = torah_df.groupby('d0')['d0'].transform('count')
-    torah_df['d0_count'] = [(int(k[0]), int(k[1])) if not pd.isna(k[2]) else None for k in zip(torah_df.n0, torah_df.N0, torah_df.d0)]
+    n0 = torah_df.groupby('d0').cumcount() + 1
+    N0 = torah_df.groupby('d0')['d0'].transform('count')
+    torah_df['d0_count'] = [(int(k[0]), int(k[1])) if not pd.isna(k[2]) else (None, None) for k in zip(n0, N0, torah_df.d0)]
 
-    torah_df['n1'] = torah_df.groupby('d1').cumcount() + 1
-    torah_df['N1'] = torah_df.groupby('d1')['d1'].transform('count')
-    torah_df['d1_count'] = [(int(k[0]), int(k[1])) if not pd.isna(k[2]) else None for k in zip(torah_df.n1, torah_df.N1, torah_df.d1)]
+    n1 = torah_df.groupby('d1').cumcount() + 1
+    N1 = torah_df.groupby('d1')['d1'].transform('count')
+    torah_df['d1_count'] = [(int(k[0]), int(k[1])) if not pd.isna(k[2]) else (None, None) for k in zip(n1, N1, torah_df.d1)]
 
-    torah_df['n2'] = torah_df.groupby('d2').cumcount() + 1
-    torah_df['N2'] = torah_df.groupby('d2')['d2'].transform('count')
-    torah_df['d2_count'] = [(int(k[0]), int(k[1])) if not pd.isna(k[2]) else None for k in zip(torah_df.n2, torah_df.N2, torah_df.d2)]
+    n2 = torah_df.groupby('d2').cumcount() + 1
+    N2 = torah_df.groupby('d2')['d2'].transform('count')
+    torah_df['d2_count'] = [(int(k[0]), int(k[1])) if not pd.isna(k[2]) else (None, None) for k in zip(n2, N2, torah_df.d2)]
 
-    torah_df = torah_df.drop(['n','N','n0','N0','n1','N1','n2','N2'], axis=1)
+    n3 = torah_df.groupby('root').cumcount() + 1
+    N3 = torah_df.groupby('root')['root'].transform('count')
+    torah_df['root_count'] = [(int(k[0]), int(k[1])) if not pd.isna(k[2]) else (None, None) for k in zip(n3, N3, torah_df['root'])]
 
     #==================================================
     # Append hand-parsed clause divisions
     #==================================================
-    clausebreaks_filepath = os.path.join(clausebreaks_directory, 'clausebreaks.json')
     try:
         with open(clausebreaks_filepath, 'r') as f:
             clausebreak_dict = json.load(f)
