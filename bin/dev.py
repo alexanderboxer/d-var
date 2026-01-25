@@ -11,9 +11,11 @@ import d_var as dv
 
 #dv.get_external_files()
 
-# dv.create_clausebreaks_template_file()
+
+dv.create_template_datafiles()
 
 # tdf = dv.torah()
+
 
 
 # wordstat_dict = tdf[(tdf.book==1) & (tdf.chapter==1)].set_index('idx').to_dict(orient='index')
