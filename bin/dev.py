@@ -1,8 +1,6 @@
 # ==================================================
 # Imports
 # ==================================================
-import json
-
 import d_var as dv
 
 # ==================================================
@@ -11,21 +9,8 @@ import d_var as dv
 
 #dv.get_external_files()
 
-
 # dv.create_template_datafiles()
 
-tdf = dv.torah()
-
-
-
-wordstat_dict = tdf[(tdf.book==1) & (tdf.chapter==1)].set_index('idx').to_dict(orient='index')
-target_filepath = 'web/wordstats.js'
-json_string = json.dumps(wordstat_dict, ensure_ascii=False)
-s = '''const j2 = JSON.parse('{}');'''.format(json_string)
-with open(target_filepath, 'w') as f:
-    f.write(s)
-
-
-
+# tdf = dv.torah()
 
 dv.chapter_to_html()
