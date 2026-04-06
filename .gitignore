@@ -220,4 +220,5 @@ __marimo__/
 **/.DS_Store
 
 # Data
-data/external
+data/external/*
+!data/external/SOURCES.md

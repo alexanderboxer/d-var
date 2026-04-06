@@ -50,15 +50,15 @@ def get_sefaria_tanach():
     source_target_dict['genesis'].update({
         'texts': {
             'text_only': {
-                'source': "https://raw.githubusercontent.com/Sefaria/Sefaria-Export/refs/heads/master/json/Tanakh/Torah/Genesis/Hebrew/Tanach%20with%20Text%20Only.json",
+                'source': "https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Genesis/Hebrew/Tanach%20with%20Text%20Only.json",
                 'target': os.path.join(source_target_dict['genesis']['directory'], 'genesis.json'),
             },
             'text_with_nikkud': {
-                'source': "https://raw.githubusercontent.com/Sefaria/Sefaria-Export/refs/heads/master/json/Tanakh/Torah/Genesis/Hebrew/Tanach%20with%20Nikkud.json",
+                'source': "https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Genesis/Hebrew/Tanach%20with%20Nikkud.json",
                 'target': os.path.join(source_target_dict['genesis']['directory'], 'genesis_with_nikkud.json'),
             },
             'text_with_taamei_hamikra': {
-                'source': "https://raw.githubusercontent.com/Sefaria/Sefaria-Export/refs/heads/master/json/Tanakh/Torah/Genesis/Hebrew/Tanach%20with%20Ta'amei%20Hamikra.json",
+                'source': "https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Genesis/Hebrew/Tanach%20with%20Ta'amei%20Hamikra.json",
                 'target': os.path.join(source_target_dict['genesis']['directory'], 'genesis_with_taamei_hamikra.json'),
             },
         } 
@@ -66,15 +66,15 @@ def get_sefaria_tanach():
     source_target_dict['exodus'].update({
         'texts': {
             'text_only': {
-                'source': "https://raw.githubusercontent.com/Sefaria/Sefaria-Export/refs/heads/master/json/Tanakh/Torah/Exodus/Hebrew/Tanach%20with%20Text%20Only.json",
+                'source': "https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Exodus/Hebrew/Tanach%20with%20Text%20Only.json",
                 'target': os.path.join(source_target_dict['exodus']['directory'], 'exodus.json'),
             },
             'text_with_nikkud': {
-                'source': "https://raw.githubusercontent.com/Sefaria/Sefaria-Export/refs/heads/master/json/Tanakh/Torah/Exodus/Hebrew/Tanach%20with%20Nikkud.json",
+                'source': "https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Exodus/Hebrew/Tanach%20with%20Nikkud.json",
                 'target': os.path.join(source_target_dict['exodus']['directory'], 'exodus_with_nikkud.json'),
             },
             'text_with_taamei_hamikra': {
-                'source': "https://raw.githubusercontent.com/Sefaria/Sefaria-Export/refs/heads/master/json/Tanakh/Torah/Exodus/Hebrew/Tanach%20with%20Ta'amei%20Hamikra.json",
+                'source': "https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Exodus/Hebrew/Tanach%20with%20Ta'amei%20Hamikra.json",
                 'target': os.path.join(source_target_dict['exodus']['directory'], 'exodus_with_taamei_hamikra.json'),
             },
         } 
@@ -82,15 +82,15 @@ def get_sefaria_tanach():
     source_target_dict['leviticus'].update({
         'texts': {
             'text_only': {
-                'source': "https://raw.githubusercontent.com/Sefaria/Sefaria-Export/refs/heads/master/json/Tanakh/Torah/Leviticus/Hebrew/Tanach%20with%20Text%20Only.json",
+                'source': "https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Leviticus/Hebrew/Tanach%20with%20Text%20Only.json",
                 'target': os.path.join(source_target_dict['leviticus']['directory'], 'leviticus.json'),
             },
             'text_with_nikkud': {
-                'source': "https://raw.githubusercontent.com/Sefaria/Sefaria-Export/refs/heads/master/json/Tanakh/Torah/Leviticus/Hebrew/Tanach%20with%20Nikkud.json",
+                'source': "https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Leviticus/Hebrew/Tanach%20with%20Nikkud.json",
                 'target': os.path.join(source_target_dict['leviticus']['directory'], 'leviticus_with_nikkud.json'),
             },
             'text_with_taamei_hamikra': {
-                'source': "https://raw.githubusercontent.com/Sefaria/Sefaria-Export/refs/heads/master/json/Tanakh/Torah/Leviticus/Hebrew/Tanach%20with%20Ta'amei%20Hamikra.json",
+                'source': "https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Leviticus/Hebrew/Tanach%20with%20Ta'amei%20Hamikra.json",
                 'target': os.path.join(source_target_dict['leviticus']['directory'], 'leviticus_with_taamei_hamikra.json'),
             },
         } 
@@ -98,15 +98,15 @@ def get_sefaria_tanach():
     source_target_dict['numbers'].update({
         'texts': {
             'text_only': {
-                'source': "https://raw.githubusercontent.com/Sefaria/Sefaria-Export/refs/heads/master/json/Tanakh/Torah/Numbers/Hebrew/Tanach%20with%20Text%20Only.json",
+                'source': "https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Numbers/Hebrew/Tanach%20with%20Text%20Only.json",
                 'target': os.path.join(source_target_dict['numbers']['directory'], 'numbers.json'),
             },
             'text_with_nikkud': {
-                'source': "https://raw.githubusercontent.com/Sefaria/Sefaria-Export/refs/heads/master/json/Tanakh/Torah/Numbers/Hebrew/Tanach%20with%20Nikkud.json",
+                'source': "https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Numbers/Hebrew/Tanach%20with%20Nikkud.json",
                 'target': os.path.join(source_target_dict['numbers']['directory'], 'numbers_with_nikkud.json'),
             },
             'text_with_taamei_hamikra': {
-                'source': "https://raw.githubusercontent.com/Sefaria/Sefaria-Export/refs/heads/master/json/Tanakh/Torah/Numbers/Hebrew/Tanach%20with%20Ta'amei%20Hamikra.json",
+                'source': "https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Numbers/Hebrew/Tanach%20with%20Ta'amei%20Hamikra.json",
                 'target': os.path.join(source_target_dict['numbers']['directory'], 'numbers_with_taamei_hamikra.json'),
             },
         } 
@@ -114,15 +114,15 @@ def get_sefaria_tanach():
     source_target_dict['deuteronomy'].update({
         'texts': {
             'text_only': {
-                'source': "https://raw.githubusercontent.com/Sefaria/Sefaria-Export/refs/heads/master/json/Tanakh/Torah/Deuteronomy/Hebrew/Tanach%20with%20Text%20Only.json",
+                'source': "https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Deuteronomy/Hebrew/Tanach%20with%20Text%20Only.json",
                 'target': os.path.join(source_target_dict['deuteronomy']['directory'], 'deuteronomy.json'),
             },
             'text_with_nikkud': {
-                'source': "https://raw.githubusercontent.com/Sefaria/Sefaria-Export/refs/heads/master/json/Tanakh/Torah/Deuteronomy/Hebrew/Tanach%20with%20Nikkud.json",
+                'source': "https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Deuteronomy/Hebrew/Tanach%20with%20Nikkud.json",
                 'target': os.path.join(source_target_dict['deuteronomy']['directory'], 'deuteronomy_with_nikkud.json'),
             },
             'text_with_taamei_hamikra': {
-                'source': "https://raw.githubusercontent.com/Sefaria/Sefaria-Export/refs/heads/master/json/Tanakh/Torah/Deuteronomy/Hebrew/Tanach%20with%20Ta'amei%20Hamikra.json",
+                'source': "https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Deuteronomy/Hebrew/Tanach%20with%20Ta'amei%20Hamikra.json",
                 'target': os.path.join(source_target_dict['deuteronomy']['directory'], 'deuteronomy_with_taamei_hamikra.json'),
             },
         } 
@@ -146,8 +146,8 @@ def get_sefaria_tanach():
             shutil.move(temp_directory, target_directory)
             print('Success. Files have been written to {}'.format(target_directory))
 
-        except:
-            print('Failed to download source texts.')
+        except Exception as e:
+            print('Failed to download source texts: {}'.format(e))
 
 
 #============================================================
@@ -199,8 +199,40 @@ def get_openscriptures_strongs():
             shutil.move(temp_directory, target_directory)
             print('Success. Files have been written to {}'.format(target_directory))
 
-        except:
-            print('Failed to download source texts.')
+        except Exception as e:
+            print('Failed to download source texts: {}'.format(e))
+
+
+#==================================================
+# Function: write manifest
+#==================================================
+def write_manifest(target_directory):
+    manifest_filepath = os.path.join(target_directory, 'SOURCES.md')
+    datestring = datetime.now().strftime('%Y-%m-%d')
+    content = f"""# External Data Sources
+
+Downloaded: {datestring}
+
+## Sefaria Torah Texts
+
+- **Source:** https://storage.googleapis.com/sefaria-export/ (via Sefaria-Export)
+- **Files:** `sefaria_tanach/` — Torah texts in three forms (consonants, with nikkud, with taamei hamikra)
+- **License:** Per-text; see the `license` field in each JSON file. Possible licenses: Public Domain, CC0, CC-BY, CC-BY-SA, CC-BY-NC.
+
+## OpenScriptures Strong's Hebrew Dictionary
+
+- **Source:** https://github.com/openscriptures/strongs
+- **File:** `openscriptures_strongs/strongs_hebrew_dictionary.js`
+- **License:** No license specified in repository.
+
+## OpenScriptures Westminster Leningrad Codex (WLC) Mapping
+
+- **Source:** https://github.com/openscriptures/morphhb
+- **File:** `openscriptures_strongs/wlc_cons.txt`
+- **License:** WLC text is Public Domain. Lemma and morphology data are CC-BY 4.0 (attribution to the Open Scriptures Hebrew Bible Project).
+"""
+    with open(manifest_filepath, 'w') as f:
+        f.write(content)
 
 
 #==================================================
@@ -209,3 +241,7 @@ def get_openscriptures_strongs():
 def get_external_files():
     get_sefaria_tanach()
     get_openscriptures_strongs()
+
+    project_root = dv.get_project_root()
+    target_directory = os.path.join(project_root, 'data/external')
+    write_manifest(target_directory)
