@@ -4,21 +4,21 @@
 
 | File | License | Download Date |
 | --- | --- | --- |
-| [genesis.json](https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Genesis/Hebrew/Tanach with Text Only.json) | Public Domain | 2026-04-06 |
-| [genesis_with_nikkud.json](https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Genesis/Hebrew/Tanach with Text OnlyTanach with Nikkud.json) | Public Domain | 2026-04-06 |
-| [genesis_with_taamei_hamikra.json](https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Genesis/Hebrew/Tanach with Text OnlyTanach with Ta'amei Hamikra.json) | Public Domain | 2026-04-06 |
-| [exodus.json](https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Exodus/Hebrew/Tanach with Text Only.json) | Public Domain | 2026-04-06 |
-| [exodus_with_nikkud.json](https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Exodus/Hebrew/Tanach with Text OnlyTanach with Nikkud.json) | Public Domain | 2026-04-06 |
-| [exodus_with_taamei_hamikra.json](https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Exodus/Hebrew/Tanach with Text OnlyTanach with Ta'amei Hamikra.json) | Public Domain | 2026-04-06 |
-| [leviticus.json](https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Leviticus/Hebrew/Tanach with Text Only.json) | Public Domain | 2026-04-06 |
-| [leviticus_with_nikkud.json](https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Leviticus/Hebrew/Tanach with Text OnlyTanach with Nikkud.json) | Public Domain | 2026-04-06 |
-| [leviticus_with_taamei_hamikra.json](https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Leviticus/Hebrew/Tanach with Text OnlyTanach with Ta'amei Hamikra.json) | Public Domain | 2026-04-06 |
-| [numbers.json](https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Numbers/Hebrew/Tanach with Text Only.json) | Public Domain | 2026-04-06 |
-| [numbers_with_nikkud.json](https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Numbers/Hebrew/Tanach with Text OnlyTanach with Nikkud.json) | Public Domain | 2026-04-06 |
-| [numbers_with_taamei_hamikra.json](https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Numbers/Hebrew/Tanach with Text OnlyTanach with Ta'amei Hamikra.json) | Public Domain | 2026-04-06 |
-| [deuteronomy.json](https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Deuteronomy/Hebrew/Tanach with Text Only.json) | Public Domain | 2026-04-06 |
-| [deuteronomy_with_nikkud.json](https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Deuteronomy/Hebrew/Tanach with Text OnlyTanach with Nikkud.json) | Public Domain | 2026-04-06 |
-| [deuteronomy_with_taamei_hamikra.json](https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Deuteronomy/Hebrew/Tanach with Text OnlyTanach with Ta'amei Hamikra.json) | Public Domain | 2026-04-06 |
+| [genesis.json](https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Genesis/Hebrew/Tanach%20with%20Text%20Only.json) | Public Domain | 2026-04-06 |
+| [genesis_with_nikkud.json](https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Genesis/Hebrew/Tanach%20with%20Nikkud.json) | Public Domain | 2026-04-06 |
+| [genesis_with_taamei_hamikra.json](https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Genesis/Hebrew/Tanach%20with%20Ta'amei%20Hamikra.json) | Public Domain | 2026-04-06 |
+| [exodus.json](https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Exodus/Hebrew/Tanach%20with%20Text%20Only.json) | Public Domain | 2026-04-06 |
+| [exodus_with_nikkud.json](https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Exodus/Hebrew/Tanach%20with%20Nikkud.json) | Public Domain | 2026-04-06 |
+| [exodus_with_taamei_hamikra.json](https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Exodus/Hebrew/Tanach%20with%20Ta'amei%20Hamikra.json) | Public Domain | 2026-04-06 |
+| [leviticus.json](https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Leviticus/Hebrew/Tanach%20with%20Text%20Only.json) | Public Domain | 2026-04-06 |
+| [leviticus_with_nikkud.json](https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Leviticus/Hebrew/Tanach%20with%20Nikkud.json) | Public Domain | 2026-04-06 |
+| [leviticus_with_taamei_hamikra.json](https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Leviticus/Hebrew/Tanach%20with%20Ta'amei%20Hamikra.json) | Public Domain | 2026-04-06 |
+| [numbers.json](https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Numbers/Hebrew/Tanach%20with%20Text%20Only.json) | Public Domain | 2026-04-06 |
+| [numbers_with_nikkud.json](https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Numbers/Hebrew/Tanach%20with%20Nikkud.json) | Public Domain | 2026-04-06 |
+| [numbers_with_taamei_hamikra.json](https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Numbers/Hebrew/Tanach%20with%20Ta'amei%20Hamikra.json) | Public Domain | 2026-04-06 |
+| [deuteronomy.json](https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Deuteronomy/Hebrew/Tanach%20with%20Text%20Only.json) | Public Domain | 2026-04-06 |
+| [deuteronomy_with_nikkud.json](https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Deuteronomy/Hebrew/Tanach%20with%20Nikkud.json) | Public Domain | 2026-04-06 |
+| [deuteronomy_with_taamei_hamikra.json](https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Deuteronomy/Hebrew/Tanach%20with%20Ta'amei%20Hamikra.json) | Public Domain | 2026-04-06 |
 
 ## [OpenScriptures](https://github.com/openscriptures)
 
