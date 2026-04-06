@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-d-var is a Hebrew Bible (Torah) text analysis and visualization tool. It combines external data sources (Sefaria texts, OpenScriptures Strong's dictionary) with hand-curated linguistic annotations to produce an interactive web interface for word-level exploration.
+d-var is a Hebrew Bible (Torah) text analysis tool. It combines external data sources (Sefaria texts, OpenScriptures Strong's dictionary) with hand-curated linguistic annotations to produce an interactive web interface for word-level exploration.
 
 ## Development Setup
 
