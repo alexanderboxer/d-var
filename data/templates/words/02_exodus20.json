@@ -1,0 +1,1562 @@
+{
+  "2.20.1.1": {
+    "d0": "וידבר",
+    "lemma": "דבר",
+    "lexCat": null
+  },
+  "2.20.1.2": {
+    "d0": "אלהים",
+    "lemma": "אלהים",
+    "lexCat": null
+  },
+  "2.20.1.3": {
+    "d0": "את",
+    "lemma": "את",
+    "lexCat": null
+  },
+  "2.20.1.4": {
+    "d0": "כל",
+    "lemma": "כל",
+    "lexCat": null
+  },
+  "2.20.1.5": {
+    "d0": "הדברים",
+    "lemma": "דבר",
+    "lexCat": null
+  },
+  "2.20.1.6": {
+    "d0": "האלה",
+    "lemma": "אלה",
+    "lexCat": null
+  },
+  "2.20.1.7": {
+    "d0": "לאמר",
+    "lemma": "אמר",
+    "lexCat": null
+  },
+  "2.20.2.1": {
+    "d0": "אנכי",
+    "lemma": "אנכי",
+    "lexCat": null
+  },
+  "2.20.2.2": {
+    "d0": "יהוה",
+    "lemma": "יהוה",
+    "lexCat": null
+  },
+  "2.20.2.3": {
+    "d0": "אלהיך",
+    "lemma": "אלהים",
+    "lexCat": null
+  },
+  "2.20.2.4": {
+    "d0": "אשר",
+    "lemma": "אשר",
+    "lexCat": null
+  },
+  "2.20.2.5": {
+    "d0": "הוצאתיך",
+    "lemma": "יצא",
+    "lexCat": null
+  },
+  "2.20.2.6": {
+    "d0": "מארץ",
+    "lemma": "ארץ",
+    "lexCat": null
+  },
+  "2.20.2.7": {
+    "d0": "מצרים",
+    "lemma": "מצרים",
+    "lexCat": null
+  },
+  "2.20.2.8": {
+    "d0": "מבית",
+    "lemma": "בית",
+    "lexCat": null
+  },
+  "2.20.2.9": {
+    "d0": "עבדים",
+    "lemma": "עבד",
+    "lexCat": null
+  },
+  "2.20.3.1": {
+    "d0": "לא",
+    "lemma": "לא",
+    "lexCat": null
+  },
+  "2.20.3.2": {
+    "d0": "יהיה",
+    "lemma": "היה",
+    "lexCat": null
+  },
+  "2.20.3.3": {
+    "d0": "לך",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.3.4": {
+    "d0": "אלהים",
+    "lemma": "אלהים",
+    "lexCat": null
+  },
+  "2.20.3.5": {
+    "d0": "אחרים",
+    "lemma": "אחר",
+    "lexCat": null
+  },
+  "2.20.3.6": {
+    "d0": "על",
+    "lemma": "על",
+    "lexCat": null
+  },
+  "2.20.3.7": {
+    "d0": "פני",
+    "lemma": "פנים",
+    "lexCat": null
+  },
+  "2.20.4.1": {
+    "d0": "לא",
+    "lemma": "לא",
+    "lexCat": null
+  },
+  "2.20.4.2": {
+    "d0": "תעשה",
+    "lemma": "עשה",
+    "lexCat": null
+  },
+  "2.20.4.3": {
+    "d0": "לך",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.4.4": {
+    "d0": "פסל",
+    "lemma": "פסל",
+    "lexCat": null
+  },
+  "2.20.4.5": {
+    "d0": "וכל",
+    "lemma": "כל",
+    "lexCat": null
+  },
+  "2.20.4.6": {
+    "d0": "תמונה",
+    "lemma": "תמונה",
+    "lexCat": null
+  },
+  "2.20.4.7": {
+    "d0": "אשר",
+    "lemma": "אשר",
+    "lexCat": null
+  },
+  "2.20.4.8": {
+    "d0": "בשמים",
+    "lemma": "שמים",
+    "lexCat": null
+  },
+  "2.20.4.9": {
+    "d0": "ממעל",
+    "lemma": "מעל",
+    "lexCat": null
+  },
+  "2.20.4.10": {
+    "d0": "ואשר",
+    "lemma": "אשר",
+    "lexCat": null
+  },
+  "2.20.4.11": {
+    "d0": "בארץ",
+    "lemma": "ארץ",
+    "lexCat": null
+  },
+  "2.20.4.12": {
+    "d0": "מתחת",
+    "lemma": "תחת",
+    "lexCat": null
+  },
+  "2.20.4.13": {
+    "d0": "ואשר",
+    "lemma": "אשר",
+    "lexCat": null
+  },
+  "2.20.4.14": {
+    "d0": "במים",
+    "lemma": "מים",
+    "lexCat": null
+  },
+  "2.20.4.15": {
+    "d0": "מתחת",
+    "lemma": "תחת",
+    "lexCat": null
+  },
+  "2.20.4.16": {
+    "d0": "לארץ",
+    "lemma": "ארץ",
+    "lexCat": null
+  },
+  "2.20.5.1": {
+    "d0": "לא",
+    "lemma": "לא",
+    "lexCat": null
+  },
+  "2.20.5.2": {
+    "d0": "תשתחוה",
+    "lemma": "שחה",
+    "lexCat": null
+  },
+  "2.20.5.3": {
+    "d0": "להם",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.5.4": {
+    "d0": "ולא",
+    "lemma": "לא",
+    "lexCat": null
+  },
+  "2.20.5.5": {
+    "d0": "תעבדם",
+    "lemma": "עבד",
+    "lexCat": null
+  },
+  "2.20.5.6": {
+    "d0": "כי",
+    "lemma": "כי",
+    "lexCat": null
+  },
+  "2.20.5.7": {
+    "d0": "אנכי",
+    "lemma": "אנכי",
+    "lexCat": null
+  },
+  "2.20.5.8": {
+    "d0": "יהוה",
+    "lemma": "יהוה",
+    "lexCat": null
+  },
+  "2.20.5.9": {
+    "d0": "אלהיך",
+    "lemma": "אלהים",
+    "lexCat": null
+  },
+  "2.20.5.10": {
+    "d0": "אל",
+    "lemma": "אל",
+    "lexCat": null
+  },
+  "2.20.5.11": {
+    "d0": "קנא",
+    "lemma": "קנא",
+    "lexCat": null
+  },
+  "2.20.5.12": {
+    "d0": "פקד",
+    "lemma": "פקד",
+    "lexCat": null
+  },
+  "2.20.5.13": {
+    "d0": "עון",
+    "lemma": "עון",
+    "lexCat": null
+  },
+  "2.20.5.14": {
+    "d0": "אבת",
+    "lemma": "אב",
+    "lexCat": null
+  },
+  "2.20.5.15": {
+    "d0": "על",
+    "lemma": "על",
+    "lexCat": null
+  },
+  "2.20.5.16": {
+    "d0": "בנים",
+    "lemma": "בן",
+    "lexCat": null
+  },
+  "2.20.5.17": {
+    "d0": "על",
+    "lemma": "על",
+    "lexCat": null
+  },
+  "2.20.5.18": {
+    "d0": "שלשים",
+    "lemma": "שלש",
+    "lexCat": null
+  },
+  "2.20.5.19": {
+    "d0": "ועל",
+    "lemma": "על",
+    "lexCat": null
+  },
+  "2.20.5.20": {
+    "d0": "רבעים",
+    "lemma": "רבע",
+    "lexCat": null
+  },
+  "2.20.5.21": {
+    "d0": "לשנאי",
+    "lemma": "שנא",
+    "lexCat": null
+  },
+  "2.20.6.1": {
+    "d0": "ועשה",
+    "lemma": "עשה",
+    "lexCat": null
+  },
+  "2.20.6.2": {
+    "d0": "חסד",
+    "lemma": "חסד",
+    "lexCat": null
+  },
+  "2.20.6.3": {
+    "d0": "לאלפים",
+    "lemma": "אלף",
+    "lexCat": null
+  },
+  "2.20.6.4": {
+    "d0": "לאהבי",
+    "lemma": "אהב",
+    "lexCat": null
+  },
+  "2.20.6.5": {
+    "d0": "ולשמרי",
+    "lemma": "שמר",
+    "lexCat": null
+  },
+  "2.20.6.6": {
+    "d0": "מצותי",
+    "lemma": "מצוה",
+    "lexCat": null
+  },
+  "2.20.7.1": {
+    "d0": "לא",
+    "lemma": "לא",
+    "lexCat": null
+  },
+  "2.20.7.2": {
+    "d0": "תשא",
+    "lemma": "נשא",
+    "lexCat": null
+  },
+  "2.20.7.3": {
+    "d0": "את",
+    "lemma": "את",
+    "lexCat": null
+  },
+  "2.20.7.4": {
+    "d0": "שם",
+    "lemma": "שם",
+    "lexCat": null
+  },
+  "2.20.7.5": {
+    "d0": "יהוה",
+    "lemma": "יהוה",
+    "lexCat": null
+  },
+  "2.20.7.6": {
+    "d0": "אלהיך",
+    "lemma": "אלהים",
+    "lexCat": null
+  },
+  "2.20.7.7": {
+    "d0": "לשוא",
+    "lemma": "שוא",
+    "lexCat": null
+  },
+  "2.20.7.8": {
+    "d0": "כי",
+    "lemma": "כי",
+    "lexCat": null
+  },
+  "2.20.7.9": {
+    "d0": "לא",
+    "lemma": "לא",
+    "lexCat": null
+  },
+  "2.20.7.10": {
+    "d0": "ינקה",
+    "lemma": "נקה",
+    "lexCat": null
+  },
+  "2.20.7.11": {
+    "d0": "יהוה",
+    "lemma": "יהוה",
+    "lexCat": null
+  },
+  "2.20.7.12": {
+    "d0": "את",
+    "lemma": "את",
+    "lexCat": null
+  },
+  "2.20.7.13": {
+    "d0": "אשר",
+    "lemma": "אשר",
+    "lexCat": null
+  },
+  "2.20.7.14": {
+    "d0": "ישא",
+    "lemma": "נשא",
+    "lexCat": null
+  },
+  "2.20.7.15": {
+    "d0": "את",
+    "lemma": "את",
+    "lexCat": null
+  },
+  "2.20.7.16": {
+    "d0": "שמו",
+    "lemma": "שם",
+    "lexCat": null
+  },
+  "2.20.7.17": {
+    "d0": "לשוא",
+    "lemma": "שוא",
+    "lexCat": null
+  },
+  "2.20.8.1": {
+    "d0": "זכור",
+    "lemma": "זכר",
+    "lexCat": null
+  },
+  "2.20.8.2": {
+    "d0": "את",
+    "lemma": "את",
+    "lexCat": null
+  },
+  "2.20.8.3": {
+    "d0": "יום",
+    "lemma": "יום",
+    "lexCat": null
+  },
+  "2.20.8.4": {
+    "d0": "השבת",
+    "lemma": "שבת",
+    "lexCat": null
+  },
+  "2.20.8.5": {
+    "d0": "לקדשו",
+    "lemma": "קדש",
+    "lexCat": null
+  },
+  "2.20.9.1": {
+    "d0": "ששת",
+    "lemma": "שש",
+    "lexCat": null
+  },
+  "2.20.9.2": {
+    "d0": "ימים",
+    "lemma": "יום",
+    "lexCat": null
+  },
+  "2.20.9.3": {
+    "d0": "תעבד",
+    "lemma": "עבד",
+    "lexCat": null
+  },
+  "2.20.9.4": {
+    "d0": "ועשית",
+    "lemma": "עשה",
+    "lexCat": null
+  },
+  "2.20.9.5": {
+    "d0": "כל",
+    "lemma": "כל",
+    "lexCat": null
+  },
+  "2.20.9.6": {
+    "d0": "מלאכתך",
+    "lemma": "מלאכה",
+    "lexCat": null
+  },
+  "2.20.10.1": {
+    "d0": "ויום",
+    "lemma": "יום",
+    "lexCat": null
+  },
+  "2.20.10.2": {
+    "d0": "השביעי",
+    "lemma": "שביעי",
+    "lexCat": null
+  },
+  "2.20.10.3": {
+    "d0": "שבת",
+    "lemma": "שבת",
+    "lexCat": null
+  },
+  "2.20.10.4": {
+    "d0": "ליהוה",
+    "lemma": "יהוה",
+    "lexCat": null
+  },
+  "2.20.10.5": {
+    "d0": "אלהיך",
+    "lemma": "אלהים",
+    "lexCat": null
+  },
+  "2.20.10.6": {
+    "d0": "לא",
+    "lemma": "לא",
+    "lexCat": null
+  },
+  "2.20.10.7": {
+    "d0": "תעשה",
+    "lemma": "עשה",
+    "lexCat": null
+  },
+  "2.20.10.8": {
+    "d0": "כל",
+    "lemma": "כל",
+    "lexCat": null
+  },
+  "2.20.10.9": {
+    "d0": "מלאכה",
+    "lemma": "מלאכה",
+    "lexCat": null
+  },
+  "2.20.10.10": {
+    "d0": "אתה",
+    "lemma": "אתה",
+    "lexCat": null
+  },
+  "2.20.10.11": {
+    "d0": "ובנך",
+    "lemma": "בן",
+    "lexCat": null
+  },
+  "2.20.10.12": {
+    "d0": "ובתך",
+    "lemma": "בת",
+    "lexCat": null
+  },
+  "2.20.10.13": {
+    "d0": "עבדך",
+    "lemma": "עבד",
+    "lexCat": null
+  },
+  "2.20.10.14": {
+    "d0": "ואמתך",
+    "lemma": "אמה",
+    "lexCat": null
+  },
+  "2.20.10.15": {
+    "d0": "ובהמתך",
+    "lemma": "בהמה",
+    "lexCat": null
+  },
+  "2.20.10.16": {
+    "d0": "וגרך",
+    "lemma": "גר",
+    "lexCat": null
+  },
+  "2.20.10.17": {
+    "d0": "אשר",
+    "lemma": "אשר",
+    "lexCat": null
+  },
+  "2.20.10.18": {
+    "d0": "בשעריך",
+    "lemma": "שער",
+    "lexCat": null
+  },
+  "2.20.11.1": {
+    "d0": "כי",
+    "lemma": "כי",
+    "lexCat": null
+  },
+  "2.20.11.2": {
+    "d0": "ששת",
+    "lemma": "שש",
+    "lexCat": null
+  },
+  "2.20.11.3": {
+    "d0": "ימים",
+    "lemma": "יום",
+    "lexCat": null
+  },
+  "2.20.11.4": {
+    "d0": "עשה",
+    "lemma": "עשה",
+    "lexCat": null
+  },
+  "2.20.11.5": {
+    "d0": "יהוה",
+    "lemma": "יהוה",
+    "lexCat": null
+  },
+  "2.20.11.6": {
+    "d0": "את",
+    "lemma": "את",
+    "lexCat": null
+  },
+  "2.20.11.7": {
+    "d0": "השמים",
+    "lemma": "שמים",
+    "lexCat": null
+  },
+  "2.20.11.8": {
+    "d0": "ואת",
+    "lemma": "את",
+    "lexCat": null
+  },
+  "2.20.11.9": {
+    "d0": "הארץ",
+    "lemma": "ארץ",
+    "lexCat": null
+  },
+  "2.20.11.10": {
+    "d0": "את",
+    "lemma": "את",
+    "lexCat": null
+  },
+  "2.20.11.11": {
+    "d0": "הים",
+    "lemma": "ים",
+    "lexCat": null
+  },
+  "2.20.11.12": {
+    "d0": "ואת",
+    "lemma": "את",
+    "lexCat": null
+  },
+  "2.20.11.13": {
+    "d0": "כל",
+    "lemma": "כל",
+    "lexCat": null
+  },
+  "2.20.11.14": {
+    "d0": "אשר",
+    "lemma": "אשר",
+    "lexCat": null
+  },
+  "2.20.11.15": {
+    "d0": "בם",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.11.16": {
+    "d0": "וינח",
+    "lemma": "נוח",
+    "lexCat": null
+  },
+  "2.20.11.17": {
+    "d0": "ביום",
+    "lemma": "יום",
+    "lexCat": null
+  },
+  "2.20.11.18": {
+    "d0": "השביעי",
+    "lemma": "שביעי",
+    "lexCat": null
+  },
+  "2.20.11.19": {
+    "d0": "על",
+    "lemma": "על",
+    "lexCat": null
+  },
+  "2.20.11.20": {
+    "d0": "כן",
+    "lemma": "כן",
+    "lexCat": null
+  },
+  "2.20.11.21": {
+    "d0": "ברך",
+    "lemma": "ברך",
+    "lexCat": null
+  },
+  "2.20.11.22": {
+    "d0": "יהוה",
+    "lemma": "יהוה",
+    "lexCat": null
+  },
+  "2.20.11.23": {
+    "d0": "את",
+    "lemma": "את",
+    "lexCat": null
+  },
+  "2.20.11.24": {
+    "d0": "יום",
+    "lemma": "יום",
+    "lexCat": null
+  },
+  "2.20.11.25": {
+    "d0": "השבת",
+    "lemma": "שבת",
+    "lexCat": null
+  },
+  "2.20.11.26": {
+    "d0": "ויקדשהו",
+    "lemma": "קדש",
+    "lexCat": null
+  },
+  "2.20.12.1": {
+    "d0": "כבד",
+    "lemma": "כבד",
+    "lexCat": null
+  },
+  "2.20.12.2": {
+    "d0": "את",
+    "lemma": "את",
+    "lexCat": null
+  },
+  "2.20.12.3": {
+    "d0": "אביך",
+    "lemma": "אב",
+    "lexCat": null
+  },
+  "2.20.12.4": {
+    "d0": "ואת",
+    "lemma": "את",
+    "lexCat": null
+  },
+  "2.20.12.5": {
+    "d0": "אמך",
+    "lemma": "אם",
+    "lexCat": null
+  },
+  "2.20.12.6": {
+    "d0": "למען",
+    "lemma": "מען",
+    "lexCat": null
+  },
+  "2.20.12.7": {
+    "d0": "יארכון",
+    "lemma": "ארך",
+    "lexCat": null
+  },
+  "2.20.12.8": {
+    "d0": "ימיך",
+    "lemma": "יום",
+    "lexCat": null
+  },
+  "2.20.12.9": {
+    "d0": "על",
+    "lemma": "על",
+    "lexCat": null
+  },
+  "2.20.12.10": {
+    "d0": "האדמה",
+    "lemma": "אדמה",
+    "lexCat": null
+  },
+  "2.20.12.11": {
+    "d0": "אשר",
+    "lemma": "אשר",
+    "lexCat": null
+  },
+  "2.20.12.12": {
+    "d0": "יהוה",
+    "lemma": "יהוה",
+    "lexCat": null
+  },
+  "2.20.12.13": {
+    "d0": "אלהיך",
+    "lemma": "אלהים",
+    "lexCat": null
+  },
+  "2.20.12.14": {
+    "d0": "נתן",
+    "lemma": "נתן",
+    "lexCat": null
+  },
+  "2.20.12.15": {
+    "d0": "לך",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.13.1": {
+    "d0": "לא",
+    "lemma": "לא",
+    "lexCat": null
+  },
+  "2.20.13.2": {
+    "d0": "תרצח",
+    "lemma": "רצח",
+    "lexCat": null
+  },
+  "2.20.13.3": {
+    "d0": "לא",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.13.4": {
+    "d0": "תנאף",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.13.5": {
+    "d0": "לא",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.13.6": {
+    "d0": "תגנב",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.13.7": {
+    "d0": "לא",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.13.8": {
+    "d0": "תענה",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.13.9": {
+    "d0": "ברעך",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.13.10": {
+    "d0": "עד",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.13.11": {
+    "d0": "שקר",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.14.1": {
+    "d0": "לא",
+    "lemma": "לא",
+    "lexCat": null
+  },
+  "2.20.14.2": {
+    "d0": "תחמד",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.14.3": {
+    "d0": "בית",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.14.4": {
+    "d0": "רעך",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.14.5": {
+    "d0": "לא",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.14.6": {
+    "d0": "תחמד",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.14.7": {
+    "d0": "אשת",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.14.8": {
+    "d0": "רעך",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.14.9": {
+    "d0": "ועבדו",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.14.10": {
+    "d0": "ואמתו",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.14.11": {
+    "d0": "ושורו",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.14.12": {
+    "d0": "וחמרו",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.14.13": {
+    "d0": "וכל",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.14.14": {
+    "d0": "אשר",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.14.15": {
+    "d0": "לרעך",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.15.1": {
+    "d0": "וכל",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.15.2": {
+    "d0": "העם",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.15.3": {
+    "d0": "ראים",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.15.4": {
+    "d0": "את",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.15.5": {
+    "d0": "הקולת",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.15.6": {
+    "d0": "ואת",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.15.7": {
+    "d0": "הלפידם",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.15.8": {
+    "d0": "ואת",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.15.9": {
+    "d0": "קול",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.15.10": {
+    "d0": "השפר",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.15.11": {
+    "d0": "ואת",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.15.12": {
+    "d0": "ההר",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.15.13": {
+    "d0": "עשן",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.15.14": {
+    "d0": "וירא",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.15.15": {
+    "d0": "העם",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.15.16": {
+    "d0": "וינעו",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.15.17": {
+    "d0": "ויעמדו",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.15.18": {
+    "d0": "מרחק",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.16.1": {
+    "d0": "ויאמרו",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.16.2": {
+    "d0": "אל",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.16.3": {
+    "d0": "משה",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.16.4": {
+    "d0": "דבר",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.16.5": {
+    "d0": "אתה",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.16.6": {
+    "d0": "עמנו",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.16.7": {
+    "d0": "ונשמעה",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.16.8": {
+    "d0": "ואל",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.16.9": {
+    "d0": "ידבר",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.16.10": {
+    "d0": "עמנו",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.16.11": {
+    "d0": "אלהים",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.16.12": {
+    "d0": "פן",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.16.13": {
+    "d0": "נמות",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.17.1": {
+    "d0": "ויאמר",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.17.2": {
+    "d0": "משה",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.17.3": {
+    "d0": "אל",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.17.4": {
+    "d0": "העם",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.17.5": {
+    "d0": "אל",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.17.6": {
+    "d0": "תיראו",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.17.7": {
+    "d0": "כי",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.17.8": {
+    "d0": "לבעבור",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.17.9": {
+    "d0": "נסות",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.17.10": {
+    "d0": "אתכם",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.17.11": {
+    "d0": "בא",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.17.12": {
+    "d0": "האלהים",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.17.13": {
+    "d0": "ובעבור",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.17.14": {
+    "d0": "תהיה",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.17.15": {
+    "d0": "יראתו",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.17.16": {
+    "d0": "על",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.17.17": {
+    "d0": "פניכם",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.17.18": {
+    "d0": "לבלתי",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.17.19": {
+    "d0": "תחטאו",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.18.1": {
+    "d0": "ויעמד",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.18.2": {
+    "d0": "העם",
+    "lemma": "עם",
+    "lexCat": null
+  },
+  "2.20.18.3": {
+    "d0": "מרחק",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.18.4": {
+    "d0": "ומשה",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.18.5": {
+    "d0": "נגש",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.18.6": {
+    "d0": "אל",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.18.7": {
+    "d0": "הערפל",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.18.8": {
+    "d0": "אשר",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.18.9": {
+    "d0": "שם",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.18.10": {
+    "d0": "האלהים",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.19.1": {
+    "d0": "ויאמר",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.19.2": {
+    "d0": "יהוה",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.19.3": {
+    "d0": "אל",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.19.4": {
+    "d0": "משה",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.19.5": {
+    "d0": "כה",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.19.6": {
+    "d0": "תאמר",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.19.7": {
+    "d0": "אל",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.19.8": {
+    "d0": "בני",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.19.9": {
+    "d0": "ישראל",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.19.10": {
+    "d0": "אתם",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.19.11": {
+    "d0": "ראיתם",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.19.12": {
+    "d0": "כי",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.19.13": {
+    "d0": "מן",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.19.14": {
+    "d0": "השמים",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.19.15": {
+    "d0": "דברתי",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.19.16": {
+    "d0": "עמכם",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.20.1": {
+    "d0": "לא",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.20.2": {
+    "d0": "תעשון",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.20.3": {
+    "d0": "אתי",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.20.4": {
+    "d0": "אלהי",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.20.5": {
+    "d0": "כסף",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.20.6": {
+    "d0": "ואלהי",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.20.7": {
+    "d0": "זהב",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.20.8": {
+    "d0": "לא",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.20.9": {
+    "d0": "תעשו",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.20.10": {
+    "d0": "לכם",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.21.1": {
+    "d0": "מזבח",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.21.2": {
+    "d0": "אדמה",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.21.3": {
+    "d0": "תעשה",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.21.4": {
+    "d0": "לי",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.21.5": {
+    "d0": "וזבחת",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.21.6": {
+    "d0": "עליו",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.21.7": {
+    "d0": "את",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.21.8": {
+    "d0": "עלתיך",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.21.9": {
+    "d0": "ואת",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.21.10": {
+    "d0": "שלמיך",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.21.11": {
+    "d0": "את",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.21.12": {
+    "d0": "צאנך",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.21.13": {
+    "d0": "ואת",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.21.14": {
+    "d0": "בקרך",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.21.15": {
+    "d0": "בכל",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.21.16": {
+    "d0": "המקום",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.21.17": {
+    "d0": "אשר",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.21.18": {
+    "d0": "אזכיר",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.21.19": {
+    "d0": "את",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.21.20": {
+    "d0": "שמי",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.21.21": {
+    "d0": "אבוא",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.21.22": {
+    "d0": "אליך",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.21.23": {
+    "d0": "וברכתיך",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.22.1": {
+    "d0": "ואם",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.22.2": {
+    "d0": "מזבח",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.22.3": {
+    "d0": "אבנים",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.22.4": {
+    "d0": "תעשה",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.22.5": {
+    "d0": "לי",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.22.6": {
+    "d0": "לא",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.22.7": {
+    "d0": "תבנה",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.22.8": {
+    "d0": "אתהן",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.22.9": {
+    "d0": "גזית",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.22.10": {
+    "d0": "כי",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.22.11": {
+    "d0": "חרבך",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.22.12": {
+    "d0": "הנפת",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.22.13": {
+    "d0": "עליה",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.22.14": {
+    "d0": "ותחללה",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.23.1": {
+    "d0": "ולא",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.23.2": {
+    "d0": "תעלה",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.23.3": {
+    "d0": "במעלת",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.23.4": {
+    "d0": "על",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.23.5": {
+    "d0": "מזבחי",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.23.6": {
+    "d0": "אשר",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.23.7": {
+    "d0": "לא",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.23.8": {
+    "d0": "תגלה",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.23.9": {
+    "d0": "ערותך",
+    "lemma": null,
+    "lexCat": null
+  },
+  "2.20.23.10": {
+    "d0": "עליו",
+    "lemma": null,
+    "lexCat": null
+  }
+}

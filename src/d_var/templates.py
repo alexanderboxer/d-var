@@ -4,6 +4,7 @@
 import os
 import json
 
+import pandas as pd
 import d_var as dv
 
 
@@ -75,12 +76,49 @@ def create_clausebreaks_template():
 
 
 #==================================================
+# Function: create word templates
+#==================================================
+def create_word_templates():
+
+    from d_var.parser import torah
+
+    # Paths
+    project_root = dv.get_project_root()
+    target_directory = os.path.join(project_root, 'data', 'templates', 'words')
+    if not os.path.isdir(target_directory):
+        os.makedirs(target_directory)
+
+    # Load data
+    torah_df = torah()
+
+    # Book names for filenames
+    book_names = {1: '01_genesis', 2: '02_exodus', 3: '03_leviticus', 4: '04_numbers', 5: '05_deuteronomy'}
+
+    for (book, chapter), chapter_df in torah_df.groupby(['book', 'chapter']):
+        chapter_dict = {}
+        for _, row in chapter_df.iterrows():
+            word_entry = {
+                'd0': row['d0'] if pd.notna(row['d0']) else None,
+                'lemma': row['lemma'] if pd.notna(row['lemma']) else None,
+                'lexCat': None,
+            }
+            chapter_dict[row['idx']] = word_entry
+
+        filename = '{}{:02d}.json'.format(book_names[book], chapter)
+        filepath = os.path.join(target_directory, filename)
+        with open(filepath, 'w', encoding='utf8') as f:
+            json.dump(chapter_dict, f, ensure_ascii=False, indent=2)
+
+    print('Word templates written to {}'.format(target_directory))
+
+
+#==================================================
 # Function: create template files
 #==================================================
 def create_template_datafiles():
 
-    # 1. 
+    # 1.
     create_strongs2root_template()
 
-    # 2. 
+    # 2.
     create_clausebreaks_template()
