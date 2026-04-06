@@ -138,6 +138,7 @@ def get_sefaria_tanach():
                 for text in book['texts'].values():
                     response = requests.get(text['source'])
                     text_json = response.json()
+                    text['license'] = text_json.get('license')
                     with open(text['target'], 'w', encoding = 'utf8') as f:
                         json.dump(text_json, f, ensure_ascii = False)
 
@@ -148,6 +149,8 @@ def get_sefaria_tanach():
 
         except Exception as e:
             print('Failed to download source texts: {}'.format(e))
+
+    return source_target_dict
 
 
 #============================================================
@@ -175,11 +178,13 @@ def get_openscriptures_strongs():
     source_target_dict = {
         'strongs_hebrew_dictionary': {
             'source': 'https://raw.githubusercontent.com/openscriptures/strongs/refs/heads/master/hebrew/strongs-hebrew-dictionary.js',
-            'target': os.path.join(temp_directory, 'strongs_hebrew_dictionary.js')
+            'target': os.path.join(temp_directory, 'strongs_hebrew_dictionary.js'),
+            'license': 'No license specified in repository',
         },
         'wlc_mapping': {
             'source': 'https://raw.githubusercontent.com/openscriptures/morphhb/refs/heads/master/oxlos-import/wlc_cons.txt',
-            'target': os.path.join(temp_directory, 'wlc_cons.txt')
+            'target': os.path.join(temp_directory, 'wlc_cons.txt'),
+            'license': 'WLC text is Public Domain. Lemma and morphology data are CC-BY 4.0 (attribution to the Open Scriptures Hebrew Bible Project)',
         },
     }
 
@@ -202,46 +207,46 @@ def get_openscriptures_strongs():
         except Exception as e:
             print('Failed to download source texts: {}'.format(e))
 
+    return source_target_dict
+
 
 #==================================================
 # Function: write manifest
 #==================================================
-def write_manifest(target_directory):
+def write_manifest(target_directory, sefaria_dict, openscriptures_dict):
     manifest_filepath = os.path.join(target_directory, 'SOURCES.md')
     datestring = datetime.now().strftime('%Y-%m-%d')
-    content = f"""# External Data Sources
 
-Downloaded: {datestring}
+    lines = ['# External Data Sources', '', 'Downloaded: {}'.format(datestring), '']
 
-## Sefaria Torah Texts
+    # Sefaria
+    lines += ['## Sefaria Torah Texts', '']
+    for book_name, book in sefaria_dict.items():
+        for text_name, text in book.get('texts', {}).items():
+            filename = os.path.basename(text['target'])
+            lines.append('- `{}` — source: {} — license: {}'.format(
+                filename, text['source'], text.get('license', 'unknown')))
+    lines.append('')
 
-- **Source:** https://storage.googleapis.com/sefaria-export/ (via Sefaria-Export)
-- **Files:** `sefaria_tanach/` — Torah texts in three forms (consonants, with nikkud, with taamei hamikra)
-- **License:** Per-text; see the `license` field in each JSON file. Possible licenses: Public Domain, CC0, CC-BY, CC-BY-SA, CC-BY-NC.
+    # OpenScriptures
+    lines += ['## OpenScriptures', '']
+    for name, entry in openscriptures_dict.items():
+        filename = os.path.basename(entry['target'])
+        lines.append('- `{}` — source: {} — license: {}'.format(
+            filename, entry['source'], entry.get('license', 'unknown')))
+    lines.append('')
 
-## OpenScriptures Strong's Hebrew Dictionary
-
-- **Source:** https://github.com/openscriptures/strongs
-- **File:** `openscriptures_strongs/strongs_hebrew_dictionary.js`
-- **License:** No license specified in repository.
-
-## OpenScriptures Westminster Leningrad Codex (WLC) Mapping
-
-- **Source:** https://github.com/openscriptures/morphhb
-- **File:** `openscriptures_strongs/wlc_cons.txt`
-- **License:** WLC text is Public Domain. Lemma and morphology data are CC-BY 4.0 (attribution to the Open Scriptures Hebrew Bible Project).
-"""
     with open(manifest_filepath, 'w') as f:
-        f.write(content)
+        f.write('\n'.join(lines))
 
 
 #==================================================
 # Function: get external files
 #==================================================
 def get_external_files():
-    get_sefaria_tanach()
-    get_openscriptures_strongs()
+    sefaria_dict = get_sefaria_tanach()
+    openscriptures_dict = get_openscriptures_strongs()
 
     project_root = dv.get_project_root()
     target_directory = os.path.join(project_root, 'data/external')
-    write_manifest(target_directory)
+    write_manifest(target_directory, sefaria_dict, openscriptures_dict)
