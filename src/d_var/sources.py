@@ -30,21 +30,27 @@ def get_sefaria_tanach():
 
 
     # Sefaria Tanach source-target dictionary
+    repo = 'https://github.com/Sefaria/Sefaria-Export'
     source_target_dict = {
         'genesis': {
-            'directory': os.path.join(temp_directory, '01_genesis')
+            'directory': os.path.join(temp_directory, '01_genesis'),
+            'repo': repo,
         },
         'exodus': {
-            'directory': os.path.join(temp_directory, '02_exodus')
+            'directory': os.path.join(temp_directory, '02_exodus'),
+            'repo': repo,
         },
         'leviticus': {
-            'directory': os.path.join(temp_directory, '03_leviticus')
+            'directory': os.path.join(temp_directory, '03_leviticus'),
+            'repo': repo,
         },
         'numbers': {
-            'directory': os.path.join(temp_directory, '04_numbers')
+            'directory': os.path.join(temp_directory, '04_numbers'),
+            'repo': repo,
         },
         'deuteronomy': {
-            'directory': os.path.join(temp_directory, '05_deuteronomy')
+            'directory': os.path.join(temp_directory, '05_deuteronomy'),
+            'repo': repo,
         },
     }
     source_target_dict['genesis'].update({
@@ -179,12 +185,14 @@ def get_openscriptures_strongs():
         'strongs_hebrew_dictionary': {
             'source': 'https://raw.githubusercontent.com/openscriptures/strongs/refs/heads/master/hebrew/strongs-hebrew-dictionary.js',
             'target': os.path.join(temp_directory, 'strongs_hebrew_dictionary.js'),
+            'repo': 'https://github.com/openscriptures/strongs',
             'license': 'No license specified in repository',
         },
         'wlc_mapping': {
             'source': 'https://raw.githubusercontent.com/openscriptures/morphhb/refs/heads/master/oxlos-import/wlc_cons.txt',
             'target': os.path.join(temp_directory, 'wlc_cons.txt'),
-            'license': 'WLC text is Public Domain. Lemma and morphology data are CC-BY 4.0 (attribution to the Open Scriptures Hebrew Bible Project)',
+            'repo': 'https://github.com/openscriptures/morphhb',
+            'license': 'WLC text is Public Domain. Lemma and morphology data are CC-BY 4.0',
         },
     }
 
@@ -217,23 +225,30 @@ def write_manifest(target_directory, sefaria_dict, openscriptures_dict):
     manifest_filepath = os.path.join(target_directory, 'SOURCES.md')
     datestring = datetime.now().strftime('%Y-%m-%d')
 
-    lines = ['# External Data Sources', '', 'Downloaded: {}'.format(datestring), '']
+    table_header = ['| File | License | Download Date |', '| --- | --- | --- |']
 
-    # Sefaria
-    lines += ['## Sefaria Torah Texts', '']
-    for book_name, book in sefaria_dict.items():
-        for text_name, text in book.get('texts', {}).items():
+    lines = [
+        '# External Data Sources',
+        '',
+        '## [Sefaria-Export](https://github.com/Sefaria/Sefaria-Export)',
+        '',
+    ] + table_header
+
+    for book in sefaria_dict.values():
+        for text in book.get('texts', {}).values():
             filename = os.path.basename(text['target'])
-            lines.append('- `{}` — source: {} — license: {}'.format(
-                filename, text['source'], text.get('license', 'unknown')))
-    lines.append('')
+            license = text.get('license', 'unknown')
+            lines.append('| [{}]({}) | {} | {} |'.format(
+                filename, text['source'], license, datestring))
 
-    # OpenScriptures
-    lines += ['## OpenScriptures', '']
-    for name, entry in openscriptures_dict.items():
+    lines += ['', '## [OpenScriptures](https://github.com/openscriptures)', ''] + table_header
+
+    for entry in openscriptures_dict.values():
         filename = os.path.basename(entry['target'])
-        lines.append('- `{}` — source: {} — license: {}'.format(
-            filename, entry['source'], entry.get('license', 'unknown')))
+        license = entry.get('license', 'unknown')
+        lines.append('| [{}]({}) | {} | {} |'.format(
+            filename, entry['source'], license, datestring))
+
     lines.append('')
 
     with open(manifest_filepath, 'w') as f:
