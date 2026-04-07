@@ -64,7 +64,7 @@ def letters_only(s):
 #==================================================
 # Function: create Torah dataframe
 #==================================================
-def torah():
+def torah(augment=True):
 
     #==================================================
     # Read and parse
@@ -159,13 +159,14 @@ def torah():
     #==================================================
     # Append Roots
     #==================================================
-    try:
-        with open(strongs2root_filepath, 'r') as f:
-            strongs2root_dict = json.load(f)
-    except:
-        strongs2root_dict = dict()
+    if augment:
+        try:
+            with open(strongs2root_filepath, 'r') as f:
+                strongs2root_dict = json.load(f)
+        except:
+            strongs2root_dict = dict()
 
-    torah_df['root'] = [strongs2root_dict.get(str(k),{}).get('root') for k in torah_df.strongs_number]
+        torah_df['root'] = [strongs2root_dict.get(str(k),{}).get('root') for k in torah_df.strongs_number]
 
     #==================================================
     # Word counts
@@ -186,29 +187,31 @@ def torah():
     N2 = torah_df.groupby('d2')['d2'].transform('count')
     torah_df['d2_count'] = [(int(k[0]), int(k[1])) if not pd.isna(k[2]) else (None, None) for k in zip(n2, N2, torah_df.d2)]
 
-    n3 = torah_df.groupby('root').cumcount() + 1
-    N3 = torah_df.groupby('root')['root'].transform('count')
-    torah_df['root_count'] = [(int(k[0]), int(k[1])) if not pd.isna(k[2]) else (None, None) for k in zip(n3, N3, torah_df['root'])]
+    if augment:
+        n3 = torah_df.groupby('root').cumcount() + 1
+        N3 = torah_df.groupby('root')['root'].transform('count')
+        torah_df['root_count'] = [(int(k[0]), int(k[1])) if not pd.isna(k[2]) else (None, None) for k in zip(n3, N3, torah_df['root'])]
 
     #==================================================
     # Append hand-parsed clause divisions
     #==================================================
-    try:
-        with open(clausebreaks_filepath, 'r') as f:
-            clausebreak_dict = json.load(f)
-    except:
-        clausebreak_dict = dict()
+    if augment:
+        try:
+            with open(clausebreaks_filepath, 'r') as f:
+                clausebreak_dict = json.load(f)
+        except:
+            clausebreak_dict = dict()
 
-    def assign_clause_number(torah_word_index, clausebreak_dict):
-        clause_key = '.'.join(torah_word_index.split('.')[:-1])
-        word_num = int(torah_word_index.split('.')[-1])
-        clausebreak_list = clausebreak_dict.get(clause_key,[1])
-        clause_num = len([k for k in clausebreak_list if word_num >= k])
-        return max([1, clause_num])
+        def assign_clause_number(torah_word_index, clausebreak_dict):
+            clause_key = '.'.join(torah_word_index.split('.')[:-1])
+            word_num = int(torah_word_index.split('.')[-1])
+            clausebreak_list = clausebreak_dict.get(clause_key,[1])
+            clause_num = len([k for k in clausebreak_list if word_num >= k])
+            return max([1, clause_num])
 
-    torah_df['clause'] = [assign_clause_number(k, clausebreak_dict) for k in torah_df.idx]
-    head_columns = ['idx','book','chapter','verse','word','clause']
-    torah_df = torah_df[head_columns + [k for k in torah_df.columns if k not in head_columns]]
+        torah_df['clause'] = [assign_clause_number(k, clausebreak_dict) for k in torah_df.idx]
+        head_columns = ['idx','book','chapter','verse','word','clause']
+        torah_df = torah_df[head_columns + [k for k in torah_df.columns if k not in head_columns]]
 
     #==================================================
     # Return

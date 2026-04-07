@@ -46,6 +46,8 @@ def create_strongs2root_template():
     with open(target_filepath, 'w') as f:
         json.dump(strongs2root_dict, f, sort_keys=False, ensure_ascii=False)
 
+    print('Strongs-to-root template written to {}'.format(target_filepath))
+
 
 #==================================================
 # Function: create clausebreaks template file
@@ -78,6 +80,8 @@ def create_clausebreaks_template():
     with open(target_filepath, 'w') as f:
         json.dump(clausebreak_dict, f, sort_keys=False)
 
+    print('Clausebreaks template written to {}'.format(target_filepath))
+
 
 #==================================================
 # Function: create word templates
@@ -93,7 +97,7 @@ def create_word_templates():
         os.makedirs(target_directory)
 
     # Load data
-    torah_df = torah()
+    torah_df = torah(augment=False)
 
     # Book names for filenames
     book_names = {1: '01_genesis', 2: '02_exodus', 3: '03_leviticus', 4: '04_numbers', 5: '05_deuteronomy'}
