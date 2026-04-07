@@ -26,7 +26,9 @@ def create_strongs2root_template():
     # Paths
     project_root = dv.get_project_root()
     source_filepath = os.path.join(project_root,'data','external','openscriptures_strongs','strongs_hebrew_dictionary.js') 
-    target_directory = os.path.join(project_root, 'data','templates')
+    target_directory = os.path.join(project_root, 'data', 'templates', 'auxiliary')
+    if not os.path.isdir(target_directory):
+        os.makedirs(target_directory)
     target_filename = 'template_strongs2root.json'
     target_filepath = os.path.join(target_directory, target_filename)
 
@@ -53,7 +55,9 @@ def create_clausebreaks_template():
     # Paths
     project_root = dv.get_project_root()
     data_directory = os.path.join(project_root,'data','external','sefaria_tanach') # Sefaria
-    target_directory = os.path.join(project_root, 'data','templates')
+    target_directory = os.path.join(project_root, 'data', 'templates', 'auxiliary')
+    if not os.path.isdir(target_directory):
+        os.makedirs(target_directory)
     target_filename = 'template_clausebreaks.json'
     target_filepath = os.path.join(target_directory, target_filename)
 
@@ -100,7 +104,9 @@ def create_word_templates():
             word_entry = {
                 'd0': row['d0'] if pd.notna(row['d0']) else None,
                 'lemma': row['lemma'] if pd.notna(row['lemma']) else None,
-                'lexCat': None,
+                'lexical_category': None,
+                'prefixes': [],
+                'suffixes': [],
             }
             chapter_dict[row['idx']] = word_entry
 
@@ -122,3 +128,6 @@ def create_template_datafiles():
 
     # 2.
     create_clausebreaks_template()
+
+    # 3.
+    create_word_templates()

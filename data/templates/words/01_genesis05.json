@@ -2,1826 +2,2556 @@
   "1.5.1.1": {
     "d0": "זה",
     "lemma": "זה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.1.2": {
     "d0": "ספר",
     "lemma": "ספר",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.1.3": {
     "d0": "תולדת",
     "lemma": "תולדה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.1.4": {
     "d0": "אדם",
     "lemma": "אדם",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.1.5": {
     "d0": "ביום",
     "lemma": "יום",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.1.6": {
     "d0": "ברא",
     "lemma": "ברא",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.1.7": {
     "d0": "אלהים",
     "lemma": "אלהים",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.1.8": {
     "d0": "אדם",
     "lemma": "אדם",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.1.9": {
     "d0": "בדמות",
     "lemma": "דמות",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.1.10": {
     "d0": "אלהים",
     "lemma": "אלהים",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.1.11": {
     "d0": "עשה",
     "lemma": "עשה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.1.12": {
     "d0": "אתו",
     "lemma": "את",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.2.1": {
     "d0": "זכר",
     "lemma": "זכר",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.2.2": {
     "d0": "ונקבה",
     "lemma": "נקבה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.2.3": {
     "d0": "בראם",
     "lemma": "ברא",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.2.4": {
     "d0": "ויברך",
     "lemma": "ברך",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.2.5": {
     "d0": "אתם",
     "lemma": "את",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.2.6": {
     "d0": "ויקרא",
     "lemma": "קרא",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.2.7": {
     "d0": "את",
     "lemma": "את",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.2.8": {
     "d0": "שמם",
     "lemma": "שם",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.2.9": {
     "d0": "אדם",
     "lemma": "אדם",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.2.10": {
     "d0": "ביום",
     "lemma": "יום",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.2.11": {
     "d0": "הבראם",
     "lemma": "ברא",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.3.1": {
     "d0": "ויחי",
     "lemma": "חיה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.3.2": {
     "d0": "אדם",
     "lemma": "אדם",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.3.3": {
     "d0": "שלשים",
     "lemma": "שלושים",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.3.4": {
     "d0": "ומאת",
     "lemma": "מאה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.3.5": {
     "d0": "שנה",
     "lemma": "שנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.3.6": {
     "d0": "ויולד",
     "lemma": "ילד",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.3.7": {
     "d0": "בדמותו",
     "lemma": "דמות",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.3.8": {
     "d0": "כצלמו",
     "lemma": "צלם",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.3.9": {
     "d0": "ויקרא",
     "lemma": "קרא",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.3.10": {
     "d0": "את",
     "lemma": "את",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.3.11": {
     "d0": "שמו",
     "lemma": "שם",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.3.12": {
     "d0": "שת",
     "lemma": "שת",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.4.1": {
     "d0": "ויהיו",
     "lemma": "היה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.4.2": {
     "d0": "ימי",
     "lemma": "יום",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.4.3": {
     "d0": "אדם",
     "lemma": "אדם",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.4.4": {
     "d0": "אחרי",
     "lemma": "אחר",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.4.5": {
     "d0": "הולידו",
     "lemma": "ילד",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.4.6": {
     "d0": "את",
     "lemma": "את",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.4.7": {
     "d0": "שת",
     "lemma": "שת",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.4.8": {
     "d0": "שמנה",
     "lemma": "שמנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.4.9": {
     "d0": "מאת",
     "lemma": "מאה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.4.10": {
     "d0": "שנה",
     "lemma": "שנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.4.11": {
     "d0": "ויולד",
     "lemma": "ילד",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.4.12": {
     "d0": "בנים",
     "lemma": "בן",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.4.13": {
     "d0": "ובנות",
     "lemma": "בת",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.5.1": {
     "d0": "ויהיו",
     "lemma": "היה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.5.2": {
     "d0": "כל",
     "lemma": "כל",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.5.3": {
     "d0": "ימי",
     "lemma": "יום",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.5.4": {
     "d0": "אדם",
     "lemma": "אדם",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.5.5": {
     "d0": "אשר",
     "lemma": "אשר",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.5.6": {
     "d0": "חי",
     "lemma": "חיי",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.5.7": {
     "d0": "תשע",
     "lemma": "תשע",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.5.8": {
     "d0": "מאות",
     "lemma": "מאה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.5.9": {
     "d0": "שנה",
     "lemma": "שנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.5.10": {
     "d0": "ושלשים",
     "lemma": "שלושים",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.5.11": {
     "d0": "שנה",
     "lemma": "שנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.5.12": {
     "d0": "וימת",
     "lemma": "מות",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.6.1": {
     "d0": "ויחי",
     "lemma": "חיה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.6.2": {
     "d0": "שת",
     "lemma": "שת",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.6.3": {
     "d0": "חמש",
     "lemma": "חמש",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.6.4": {
     "d0": "שנים",
     "lemma": "שנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.6.5": {
     "d0": "ומאת",
     "lemma": "מאה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.6.6": {
     "d0": "שנה",
     "lemma": "שנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.6.7": {
     "d0": "ויולד",
     "lemma": "ילד",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.6.8": {
     "d0": "את",
     "lemma": "את",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.6.9": {
     "d0": "אנוש",
     "lemma": "אנוש",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.7.1": {
     "d0": "ויחי",
     "lemma": "חיה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.7.2": {
     "d0": "שת",
     "lemma": "שת",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.7.3": {
     "d0": "אחרי",
     "lemma": "אחר",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.7.4": {
     "d0": "הולידו",
     "lemma": "ילד",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.7.5": {
     "d0": "את",
     "lemma": "את",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.7.6": {
     "d0": "אנוש",
     "lemma": "אנוש",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.7.7": {
     "d0": "שבע",
     "lemma": "שבע",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.7.8": {
     "d0": "שנים",
     "lemma": "שנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.7.9": {
     "d0": "ושמנה",
     "lemma": "שמנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.7.10": {
     "d0": "מאות",
     "lemma": "מאה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.7.11": {
     "d0": "שנה",
     "lemma": "שנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.7.12": {
     "d0": "ויולד",
     "lemma": "ילד",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.7.13": {
     "d0": "בנים",
     "lemma": "בן",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.7.14": {
     "d0": "ובנות",
     "lemma": "בת",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.8.1": {
     "d0": "ויהיו",
     "lemma": "היה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.8.2": {
     "d0": "כל",
     "lemma": "כל",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.8.3": {
     "d0": "ימי",
     "lemma": "יום",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.8.4": {
     "d0": "שת",
     "lemma": "שת",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.8.5": {
     "d0": "שתים",
     "lemma": "שנים",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.8.6": {
     "d0": "עשרה",
     "lemma": "עשר",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.8.7": {
     "d0": "שנה",
     "lemma": "שנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.8.8": {
     "d0": "ותשע",
     "lemma": "תשע",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.8.9": {
     "d0": "מאות",
     "lemma": "מאה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.8.10": {
     "d0": "שנה",
     "lemma": "שנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.8.11": {
     "d0": "וימת",
     "lemma": "מות",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.9.1": {
     "d0": "ויחי",
     "lemma": "חיה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.9.2": {
     "d0": "אנוש",
     "lemma": "אנוש",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.9.3": {
     "d0": "תשעים",
     "lemma": "תשעים",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.9.4": {
     "d0": "שנה",
     "lemma": "שנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.9.5": {
     "d0": "ויולד",
     "lemma": "ילד",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.9.6": {
     "d0": "את",
     "lemma": "את",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.9.7": {
     "d0": "קינן",
     "lemma": "קינן",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.10.1": {
     "d0": "ויחי",
     "lemma": "חיה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.10.2": {
     "d0": "אנוש",
     "lemma": "אנוש",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.10.3": {
     "d0": "אחרי",
     "lemma": "אחר",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.10.4": {
     "d0": "הולידו",
     "lemma": "ילד",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.10.5": {
     "d0": "את",
     "lemma": "את",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.10.6": {
     "d0": "קינן",
     "lemma": "קינן",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.10.7": {
     "d0": "חמש",
     "lemma": "חמש",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.10.8": {
     "d0": "עשרה",
     "lemma": "עשר",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.10.9": {
     "d0": "שנה",
     "lemma": "שנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.10.10": {
     "d0": "ושמנה",
     "lemma": "שמנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.10.11": {
     "d0": "מאות",
     "lemma": "מאה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.10.12": {
     "d0": "שנה",
     "lemma": "שנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.10.13": {
     "d0": "ויולד",
     "lemma": "ילד",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.10.14": {
     "d0": "בנים",
     "lemma": "בן",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.10.15": {
     "d0": "ובנות",
     "lemma": "בת",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.11.1": {
     "d0": "ויהיו",
     "lemma": "היה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.11.2": {
     "d0": "כל",
     "lemma": "כל",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.11.3": {
     "d0": "ימי",
     "lemma": "יום",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.11.4": {
     "d0": "אנוש",
     "lemma": "אנוש",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.11.5": {
     "d0": "חמש",
     "lemma": "חמש",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.11.6": {
     "d0": "שנים",
     "lemma": "שנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.11.7": {
     "d0": "ותשע",
     "lemma": "תשע",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.11.8": {
     "d0": "מאות",
     "lemma": "מאה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.11.9": {
     "d0": "שנה",
     "lemma": "שנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.11.10": {
     "d0": "וימת",
     "lemma": "מות",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.12.1": {
     "d0": "ויחי",
     "lemma": "חיה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.12.2": {
     "d0": "קינן",
     "lemma": "קינן",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.12.3": {
     "d0": "שבעים",
     "lemma": "שבעים",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.12.4": {
     "d0": "שנה",
     "lemma": "שנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.12.5": {
     "d0": "ויולד",
     "lemma": "ילד",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.12.6": {
     "d0": "את",
     "lemma": "את",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.12.7": {
     "d0": "מהללאל",
     "lemma": "מהללאל",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.13.1": {
     "d0": "ויחי",
     "lemma": "חיה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.13.2": {
     "d0": "קינן",
     "lemma": "קינן",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.13.3": {
     "d0": "אחרי",
     "lemma": "אחר",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.13.4": {
     "d0": "הולידו",
     "lemma": "ילד",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.13.5": {
     "d0": "את",
     "lemma": "את",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.13.6": {
     "d0": "מהללאל",
     "lemma": "מהללאל",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.13.7": {
     "d0": "ארבעים",
     "lemma": "ארבעים",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.13.8": {
     "d0": "שנה",
     "lemma": "שנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.13.9": {
     "d0": "ושמנה",
     "lemma": "שמנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.13.10": {
     "d0": "מאות",
     "lemma": "מאה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.13.11": {
     "d0": "שנה",
     "lemma": "שנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.13.12": {
     "d0": "ויולד",
     "lemma": "ילד",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.13.13": {
     "d0": "בנים",
     "lemma": "בן",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.13.14": {
     "d0": "ובנות",
     "lemma": "בת",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.14.1": {
     "d0": "ויהיו",
     "lemma": "היה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.14.2": {
     "d0": "כל",
     "lemma": "כל",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.14.3": {
     "d0": "ימי",
     "lemma": "יום",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.14.4": {
     "d0": "קינן",
     "lemma": "קינן",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.14.5": {
     "d0": "עשר",
     "lemma": "עשר",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.14.6": {
     "d0": "שנים",
     "lemma": "שנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.14.7": {
     "d0": "ותשע",
     "lemma": "תשע",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.14.8": {
     "d0": "מאות",
     "lemma": "מאה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.14.9": {
     "d0": "שנה",
     "lemma": "שנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.14.10": {
     "d0": "וימת",
     "lemma": "מות",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.15.1": {
     "d0": "ויחי",
     "lemma": "חיה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.15.2": {
     "d0": "מהללאל",
     "lemma": "מהללאל",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.15.3": {
     "d0": "חמש",
     "lemma": "חמש",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.15.4": {
     "d0": "שנים",
     "lemma": "שנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.15.5": {
     "d0": "וששים",
     "lemma": "ששים",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.15.6": {
     "d0": "שנה",
     "lemma": "שנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.15.7": {
     "d0": "ויולד",
     "lemma": "ילד",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.15.8": {
     "d0": "את",
     "lemma": "את",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.15.9": {
     "d0": "ירד",
     "lemma": "ירד",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.16.1": {
     "d0": "ויחי",
     "lemma": "חיה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.16.2": {
     "d0": "מהללאל",
     "lemma": "מהללאל",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.16.3": {
     "d0": "אחרי",
     "lemma": "אחר",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.16.4": {
     "d0": "הולידו",
     "lemma": "ילד",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.16.5": {
     "d0": "את",
     "lemma": "את",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.16.6": {
     "d0": "ירד",
     "lemma": "ירד",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.16.7": {
     "d0": "שלשים",
     "lemma": "שלושים",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.16.8": {
     "d0": "שנה",
     "lemma": "שנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.16.9": {
     "d0": "ושמנה",
     "lemma": "שמנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.16.10": {
     "d0": "מאות",
     "lemma": "מאה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.16.11": {
     "d0": "שנה",
     "lemma": "שנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.16.12": {
     "d0": "ויולד",
     "lemma": "ילד",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.16.13": {
     "d0": "בנים",
     "lemma": "בן",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.16.14": {
     "d0": "ובנות",
     "lemma": "בת",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.17.1": {
     "d0": "ויהיו",
     "lemma": "היה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.17.2": {
     "d0": "כל",
     "lemma": "כל",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.17.3": {
     "d0": "ימי",
     "lemma": "יום",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.17.4": {
     "d0": "מהללאל",
     "lemma": "מהללאל",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.17.5": {
     "d0": "חמש",
     "lemma": "חמש",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.17.6": {
     "d0": "ותשעים",
     "lemma": "תשעים",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.17.7": {
     "d0": "שנה",
     "lemma": "שנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.17.8": {
     "d0": "ושמנה",
     "lemma": "שמנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.17.9": {
     "d0": "מאות",
     "lemma": "מאה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.17.10": {
     "d0": "שנה",
     "lemma": "שנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.17.11": {
     "d0": "וימת",
     "lemma": "מות",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.18.1": {
     "d0": "ויחי",
     "lemma": "חיה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.18.2": {
     "d0": "ירד",
     "lemma": "ירד",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.18.3": {
     "d0": "שתים",
     "lemma": "שנים",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.18.4": {
     "d0": "וששים",
     "lemma": "ששים",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.18.5": {
     "d0": "שנה",
     "lemma": "שנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.18.6": {
     "d0": "ומאת",
     "lemma": "מאה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.18.7": {
     "d0": "שנה",
     "lemma": "שנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.18.8": {
     "d0": "ויולד",
     "lemma": "ילד",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.18.9": {
     "d0": "את",
     "lemma": "את",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.18.10": {
     "d0": "חנוך",
     "lemma": "חנוך",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.19.1": {
     "d0": "ויחי",
     "lemma": "חיה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.19.2": {
     "d0": "ירד",
     "lemma": "ירד",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.19.3": {
     "d0": "אחרי",
     "lemma": "אחר",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.19.4": {
     "d0": "הולידו",
     "lemma": "ילד",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.19.5": {
     "d0": "את",
     "lemma": "את",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.19.6": {
     "d0": "חנוך",
     "lemma": "חנוך",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.19.7": {
     "d0": "שמנה",
     "lemma": "שמנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.19.8": {
     "d0": "מאות",
     "lemma": "מאה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.19.9": {
     "d0": "שנה",
     "lemma": "שנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.19.10": {
     "d0": "ויולד",
     "lemma": "ילד",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.19.11": {
     "d0": "בנים",
     "lemma": "בן",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.19.12": {
     "d0": "ובנות",
     "lemma": "בת",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.20.1": {
     "d0": "ויהיו",
     "lemma": "היה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.20.2": {
     "d0": "כל",
     "lemma": "כל",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.20.3": {
     "d0": "ימי",
     "lemma": "יום",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.20.4": {
     "d0": "ירד",
     "lemma": "ירד",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.20.5": {
     "d0": "שתים",
     "lemma": "שנים",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.20.6": {
     "d0": "וששים",
     "lemma": "ששים",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.20.7": {
     "d0": "שנה",
     "lemma": "שנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.20.8": {
     "d0": "ותשע",
     "lemma": "תשע",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.20.9": {
     "d0": "מאות",
     "lemma": "מאה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.20.10": {
     "d0": "שנה",
     "lemma": "שנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.20.11": {
     "d0": "וימת",
     "lemma": "מות",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.21.1": {
     "d0": "ויחי",
     "lemma": "חיה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.21.2": {
     "d0": "חנוך",
     "lemma": "חנוך",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.21.3": {
     "d0": "חמש",
     "lemma": "חמש",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.21.4": {
     "d0": "וששים",
     "lemma": "ששים",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.21.5": {
     "d0": "שנה",
     "lemma": "שנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.21.6": {
     "d0": "ויולד",
     "lemma": "ילד",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.21.7": {
     "d0": "את",
     "lemma": "את",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.21.8": {
     "d0": "מתושלח",
     "lemma": "מתושלח",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.22.1": {
     "d0": "ויתהלך",
     "lemma": "הלך",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.22.2": {
     "d0": "חנוך",
     "lemma": "חנוך",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.22.3": {
     "d0": "את",
     "lemma": "את",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.22.4": {
     "d0": "האלהים",
     "lemma": "אלהים",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.22.5": {
     "d0": "אחרי",
     "lemma": "אחר",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.22.6": {
     "d0": "הולידו",
     "lemma": "ילד",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.22.7": {
     "d0": "את",
     "lemma": "את",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.22.8": {
     "d0": "מתושלח",
     "lemma": "מתושלח",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.22.9": {
     "d0": "שלש",
     "lemma": "שלוש",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.22.10": {
     "d0": "מאות",
     "lemma": "מאה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.22.11": {
     "d0": "שנה",
     "lemma": "שנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.22.12": {
     "d0": "ויולד",
     "lemma": "ילד",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.22.13": {
     "d0": "בנים",
     "lemma": "בן",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.22.14": {
     "d0": "ובנות",
     "lemma": "בת",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.23.1": {
     "d0": "ויהי",
     "lemma": "היה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.23.2": {
     "d0": "כל",
     "lemma": "כל",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.23.3": {
     "d0": "ימי",
     "lemma": "יום",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.23.4": {
     "d0": "חנוך",
     "lemma": "חנוך",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.23.5": {
     "d0": "חמש",
     "lemma": "חמש",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.23.6": {
     "d0": "וששים",
     "lemma": "ששים",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.23.7": {
     "d0": "שנה",
     "lemma": "שנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.23.8": {
     "d0": "ושלש",
     "lemma": "שלוש",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.23.9": {
     "d0": "מאות",
     "lemma": "מאה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.23.10": {
     "d0": "שנה",
     "lemma": "שנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.24.1": {
     "d0": "ויתהלך",
     "lemma": "הלך",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.24.2": {
     "d0": "חנוך",
     "lemma": "חנוך",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.24.3": {
     "d0": "את",
     "lemma": "את",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.24.4": {
     "d0": "האלהים",
     "lemma": "אלהים",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.24.5": {
     "d0": "ואיננו",
     "lemma": "אין",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.24.6": {
     "d0": "כי",
     "lemma": "כי",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.24.7": {
     "d0": "לקח",
     "lemma": "לקח",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.24.8": {
     "d0": "אתו",
     "lemma": "את",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.24.9": {
     "d0": "אלהים",
     "lemma": "אלהים",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.25.1": {
     "d0": "ויחי",
     "lemma": "חיה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.25.2": {
     "d0": "מתושלח",
     "lemma": "מתושלח",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.25.3": {
     "d0": "שבע",
     "lemma": "שבע",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.25.4": {
     "d0": "ושמנים",
     "lemma": "שמנים",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.25.5": {
     "d0": "שנה",
     "lemma": "שנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.25.6": {
     "d0": "ומאת",
     "lemma": "מאה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.25.7": {
     "d0": "שנה",
     "lemma": "שנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.25.8": {
     "d0": "ויולד",
     "lemma": "ילד",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.25.9": {
     "d0": "את",
     "lemma": "את",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.25.10": {
     "d0": "למך",
     "lemma": "למך",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.26.1": {
     "d0": "ויחי",
     "lemma": "חיה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.26.2": {
     "d0": "מתושלח",
     "lemma": "מתושלח",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.26.3": {
     "d0": "אחרי",
     "lemma": "אחר",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.26.4": {
     "d0": "הולידו",
     "lemma": "ילד",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.26.5": {
     "d0": "את",
     "lemma": "את",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.26.6": {
     "d0": "למך",
     "lemma": "למך",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.26.7": {
     "d0": "שתים",
     "lemma": "שנים",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.26.8": {
     "d0": "ושמונים",
     "lemma": "שמנים",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.26.9": {
     "d0": "שנה",
     "lemma": "שנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.26.10": {
     "d0": "ושבע",
     "lemma": "שבע",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.26.11": {
     "d0": "מאות",
     "lemma": "מאה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.26.12": {
     "d0": "שנה",
     "lemma": "שנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.26.13": {
     "d0": "ויולד",
     "lemma": "ילד",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.26.14": {
     "d0": "בנים",
     "lemma": "בן",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.26.15": {
     "d0": "ובנות",
     "lemma": "בת",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.27.1": {
     "d0": "ויהיו",
     "lemma": "היה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.27.2": {
     "d0": "כל",
     "lemma": "כל",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.27.3": {
     "d0": "ימי",
     "lemma": "יום",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.27.4": {
     "d0": "מתושלח",
     "lemma": "מתושלח",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.27.5": {
     "d0": "תשע",
     "lemma": "תשע",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.27.6": {
     "d0": "וששים",
     "lemma": "ששים",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.27.7": {
     "d0": "שנה",
     "lemma": "שנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.27.8": {
     "d0": "ותשע",
     "lemma": "תשע",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.27.9": {
     "d0": "מאות",
     "lemma": "מאה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.27.10": {
     "d0": "שנה",
     "lemma": "שנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.27.11": {
     "d0": "וימת",
     "lemma": "מות",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.28.1": {
     "d0": "ויחי",
     "lemma": "חיה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.28.2": {
     "d0": "למך",
     "lemma": "למך",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.28.3": {
     "d0": "שתים",
     "lemma": "שנים",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.28.4": {
     "d0": "ושמנים",
     "lemma": "שמנים",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.28.5": {
     "d0": "שנה",
     "lemma": "שנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.28.6": {
     "d0": "ומאת",
     "lemma": "מאה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.28.7": {
     "d0": "שנה",
     "lemma": "שנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.28.8": {
     "d0": "ויולד",
     "lemma": "ילד",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.28.9": {
     "d0": "בן",
     "lemma": "בן",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.29.1": {
     "d0": "ויקרא",
     "lemma": "קרא",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.29.2": {
     "d0": "את",
     "lemma": "את",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.29.3": {
     "d0": "שמו",
     "lemma": "שם",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.29.4": {
     "d0": "נח",
     "lemma": "נח",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.29.5": {
     "d0": "לאמר",
     "lemma": "אמר",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.29.6": {
     "d0": "זה",
     "lemma": "זה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.29.7": {
     "d0": "ינחמנו",
     "lemma": "נחם",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.29.8": {
     "d0": "ממעשנו",
     "lemma": "מעשה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.29.9": {
     "d0": "ומעצבון",
     "lemma": "עצבון",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.29.10": {
     "d0": "ידינו",
     "lemma": "יד",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.29.11": {
     "d0": "מן",
     "lemma": "מן",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.29.12": {
     "d0": "האדמה",
     "lemma": "אדמה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.29.13": {
     "d0": "אשר",
     "lemma": "אשר",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.29.14": {
     "d0": "אררה",
     "lemma": "ארר",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.29.15": {
     "d0": "יהוה",
     "lemma": "יהוה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.30.1": {
     "d0": "ויחי",
     "lemma": "חיה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.30.2": {
     "d0": "למך",
     "lemma": "למך",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.30.3": {
     "d0": "אחרי",
     "lemma": "אחר",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.30.4": {
     "d0": "הולידו",
     "lemma": "ילד",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.30.5": {
     "d0": "את",
     "lemma": "את",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.30.6": {
     "d0": "נח",
     "lemma": "נח",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.30.7": {
     "d0": "חמש",
     "lemma": "חמש",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.30.8": {
     "d0": "ותשעים",
     "lemma": "תשעים",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.30.9": {
     "d0": "שנה",
     "lemma": "שנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.30.10": {
     "d0": "וחמש",
     "lemma": "חמש",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.30.11": {
     "d0": "מאת",
     "lemma": "מאה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.30.12": {
     "d0": "שנה",
     "lemma": "שנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.30.13": {
     "d0": "ויולד",
     "lemma": "ילד",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.30.14": {
     "d0": "בנים",
     "lemma": "בן",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.30.15": {
     "d0": "ובנות",
     "lemma": "בת",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.31.1": {
     "d0": "ויהי",
     "lemma": "היה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.31.2": {
     "d0": "כל",
     "lemma": "כל",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.31.3": {
     "d0": "ימי",
     "lemma": "יום",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.31.4": {
     "d0": "למך",
     "lemma": "למך",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.31.5": {
     "d0": "שבע",
     "lemma": "שבע",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.31.6": {
     "d0": "ושבעים",
     "lemma": "שבעים",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.31.7": {
     "d0": "שנה",
     "lemma": "שנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.31.8": {
     "d0": "ושבע",
     "lemma": "שבע",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.31.9": {
     "d0": "מאות",
     "lemma": "מאה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.31.10": {
     "d0": "שנה",
     "lemma": "שנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.31.11": {
     "d0": "וימת",
     "lemma": "מות",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.32.1": {
     "d0": "ויהי",
     "lemma": "היה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.32.2": {
     "d0": "נח",
     "lemma": "נח",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.32.3": {
     "d0": "בן",
     "lemma": "בן",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.32.4": {
     "d0": "חמש",
     "lemma": "חמש",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.32.5": {
     "d0": "מאות",
     "lemma": "מאה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.32.6": {
     "d0": "שנה",
     "lemma": "שנה",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.32.7": {
     "d0": "ויולד",
     "lemma": "ילד",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.32.8": {
     "d0": "נח",
     "lemma": "נח",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.32.9": {
     "d0": "את",
     "lemma": "את",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.32.10": {
     "d0": "שם",
     "lemma": "שם",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.32.11": {
     "d0": "את",
     "lemma": "את",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.32.12": {
     "d0": "חם",
     "lemma": "חם",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.32.13": {
     "d0": "ואת",
     "lemma": "את",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   },
   "1.5.32.14": {
     "d0": "יפת",
     "lemma": "יפת",
-    "lexCat": null
+    "lexical_category": null,
+    "prefixes": [],
+    "suffixes": []
   }
 }
